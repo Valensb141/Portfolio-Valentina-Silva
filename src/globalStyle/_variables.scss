@@ -1,0 +1,93 @@
+
+//Colores
+$color-darkerGreen:         #23311B;
+$color-darkGreen:           #3A522D;
+$color-mediumGreen:         #51733F;
+$color-lightGreen:          #689451;
+$color-lighterGreen:        #82AE6B;
+
+$color-darkerBeige:         #A7A989;
+$color-darkBeige:           #BDBEA7;
+$color-mediumBeige:         #D2D3C3;
+$color-lightBeige:          #E9E9E2;
+$color-lighterBeige:        #FFFFFF;
+
+$color-darkerMustard:       #B2B267;
+$color-darkMustard:         #C3C388;
+$color-mediumMustard:       #D5D5AA;
+$color-lightMustard:        #E6E6CC;
+$color-lighterMustard:      #F5F5EB;
+
+
+// Se hace el mapa 
+$mapa-colores: (
+    "color-darkerGreen":    #23311B,
+    "color-darkGreen":      #3A522D,
+    "color-mediumGreen":    #51733F,
+    "color-lightGreen":     #689451,
+    "color-lighterGreen":   #82AE6B,
+    
+    "color-darkerBeige":    #A7A989,
+    "color-darkBeige":      #BDBEA7,
+    "color-mediumBeige":    #D2D3C3,
+    "color-lightBeige":     #E9E9E2,
+    "color-lighterBeige":   #FFFFFF,
+    
+    "color-darkerMustard":  #B2B267,
+    "color-darkMustard":    #C3C388,
+    "color-mediumMustard":  #D5D5AA,
+    "color-lightMustard":   #E6E6CC,
+    "color-lighterMustard": #F5F5EB,
+);
+
+// Esto es un loop para crear clases con cada color 
+// $color es un nombre arbitrario y $mapa-colores es el nombre que se le asignó al mapa 
+@each $color, $i in $mapa-colores {
+  .text-#{$color} {
+    color: $i;
+  }
+
+  .bg-color-#{$color} {
+    background-color: $i;
+  }
+}
+
+
+// Font family
+$font-family-primary:   'Quicksand', sans-serif;
+$font-family-secondary: 'Quicksand', sans-serif;
+
+// Hs font families (primaria es la que se usa para todo lo general y la secundaria es para titulos o casos más particulares)
+$h1-font-family:         $font-family-secondary;
+$h2-font-family:         $font-family-primary;
+$h3-font-family:         $font-family-primary;
+$h4-font-family:         $font-family-primary;
+
+
+// General font sizes
+$font-size-extra-small:  1rem;
+$font-size-small:        1.25rem;
+$font-size-medium:       2rem;
+$font-size-x-medium:     2.25rem;
+$font-size-large:        3rem;
+$font-size-extra-large:  4rem;
+
+// Hs font sizes (cambiar por los general font sizes o valores unicos para cada cosa)
+$h1-font-size:           $font-size-extra-large;
+$h2-font-size:           $font-size-large;
+$h3-font-size:           $font-size-x-medium;
+$h4font-size:            $font-size-medium;
+$h5-font-size:           $font-size-medium;
+$h6-font-size:           $font-size-medium;
+$p-font-size:            $font-size-medium;
+
+// Font weight (ver como hacer que funcione)
+// $font-bold: bold;
+// $font-medium: medium;
+// $font-light: light;
+
+
+//grid
+$grid: 4;
+$grid-gap: 8px;
+$grid-margin: $gap;
