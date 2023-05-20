@@ -16,13 +16,13 @@ function App() {
   return (
     <>
     <header>
-      <h1>Proyecto Gamma</h1>
-
+      
       <div>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/portfolio">Portfolio</Link>
       </div>
+      
     </header>
     <main>
       <Routes>
