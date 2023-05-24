@@ -1,0 +1,46 @@
+@import '../../globalStyle/variables';
+
+.btn {
+    padding: $padding-xs $padding-s $padding-xs $padding-s;
+    font-family: $font-family-primary;
+    font-weight: $font-weight-regular;
+    border-radius: $border-radius-s;
+    font-size: $font-size-small;
+    display: flex;
+    gap: $padding-xxs;
+    max-width: fit-content;
+    font-weight: $font-weight-medium;
+
+    &__primary {
+        background-color: $color-mediumGreen;
+        border: solid 1px $color-darkerGreen;
+        color: $color-lightBeige;
+        
+    }
+
+    &__secondary {
+        background-color: $color-lighterMustard;
+        border: solid 1px $color-mediumMustard;
+        color: $color-darkerGreen;
+        
+    }
+
+    &__tertiary {
+        border: solid 1px $color-mediumGreen;
+        color: $color-darkGreen;
+        
+    }
+
+    &__portfolio {
+        color: $color-darkerGreen;
+        text-decoration: underline;
+        
+    }
+
+
+}
+
+.btn_flexbox {
+    display: flex;
+
+}
