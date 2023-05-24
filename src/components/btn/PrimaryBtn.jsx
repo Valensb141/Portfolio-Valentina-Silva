@@ -5,7 +5,7 @@
 const PrimaryBtn = (props) => {
      return (
          
-           <Link className='btn btn__primary' to={`/about`}>
+           <Link className='btn btn__primary' to={props.route}>
         
               {props.text}{props.icon}
         

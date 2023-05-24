@@ -1,0 +1,57 @@
+@import '../../globalStyle/variables';
+
+.topbar {
+    display: flex;
+    position: fixed;
+    padding: $padding-xs;
+    gap: $gap-xxs;
+}
+
+.nav__btn {
+    padding: $padding-xxs $padding-xs $padding-xxs $padding-xs;
+    font-family: $font-family-primary;
+    font-weight: $font-weight-regular;
+    font-size: $font-size-small;
+    display: flex;
+    gap: $padding-xxs;
+    max-width: fit-content;
+    font-weight: $font-weight-medium;
+
+    &__middle {
+        background-color: $color-lighterMustard;
+        border: solid 1px $color-lightMustard;
+        color: $color-darkerGreen;
+
+        &:hover {
+            background-color: $color-lightMustard;
+            color: $color-darkerGreen;
+        }
+        
+    }
+
+    &__left {
+        background-color: $color-lighterMustard;
+        border: solid 1px $color-lightMustard;
+        color: $color-darkerGreen;
+        border-radius: 50px 0 0 50px;
+
+        &:hover {
+            background-color: $color-lightMustard;
+            color: $color-darkerGreen;
+        }
+        
+    }
+
+    &__right {
+        background-color: $color-lighterMustard;
+        border: solid 1px $color-lightMustard;
+        color: $color-darkerGreen;
+        border-radius: 0 50px 50px 0;
+
+        &:hover {
+            background-color: $color-lightMustard;
+            color: $color-darkerGreen;
+        }
+        
+    }
+}

@@ -10,6 +10,7 @@ import './globalStyle/GlobalStyle.scss'
 import Home from './views/Home'
 import About from './views/About'
 import Portfolio from './views/Portfolio'
+import Topbar from './components/topbar/Topbar'
 
 function App() {
 
@@ -17,11 +18,7 @@ function App() {
     <>
     <header>
       
-      <div>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/portfolio">Portfolio</Link>
-      </div>
+      <Topbar/>
       
     </header>
     <main>

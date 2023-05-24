@@ -1,10 +1,10 @@
 @import '../../globalStyle/variables';
 
 .btn {
-    padding: $padding-xs $padding-s $padding-xs $padding-s;
+    padding: $padding-xxs $padding-xs $padding-xxs $padding-xs;
     font-family: $font-family-primary;
     font-weight: $font-weight-regular;
-    border-radius: $border-radius-s;
+    border-radius: $border-radius-m;
     font-size: $font-size-small;
     display: flex;
     gap: $padding-xxs;
@@ -15,6 +15,11 @@
         background-color: $color-mediumGreen;
         border: solid 1px $color-darkerGreen;
         color: $color-lightBeige;
+
+        &:hover {
+            background-color: $color-darkGreen;
+            color: $color-lightBeige;
+        }
         
     }
 
@@ -22,19 +27,25 @@
         background-color: $color-lighterMustard;
         border: solid 1px $color-mediumMustard;
         color: $color-darkerGreen;
-        
+
+        &:hover {
+            background-color: $color-lightMustard;
+            color: $color-darkerGreen;
+        }
     }
 
-    &__tertiary {
+    &__tag {
         border: solid 1px $color-mediumGreen;
-        color: $color-darkGreen;
-        
+        color: $color-darkGreen;  
     }
 
     &__portfolio {
-        color: $color-darkerGreen;
+        color: $color-darkGreen;
         text-decoration: underline;
         
+        &:hover {
+            color: $color-lightGreen;
+        }
     }
 
 

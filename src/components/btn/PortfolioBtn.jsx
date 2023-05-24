@@ -5,7 +5,7 @@
 const PortfolioBtn = (props) => {
      return (
          
-           <Link className='btn btn__portfolio' to={`/about`}>
+           <Link className='btn btn__portfolio' to={props.route}>
         
               {props.text}{props.icon}
         

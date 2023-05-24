@@ -5,7 +5,7 @@
 const SecondaryBtn = (props) => {
      return (
          
-           <Link className='btn btn__secondary' to={`/about`}>
+           <Link className='btn btn__secondary' to={props.route}>
         
               {props.text}{props.icon}
         
