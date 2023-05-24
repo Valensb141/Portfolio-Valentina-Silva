@@ -1,0 +1,2 @@
+import './TextImgBlock.scss'
+
