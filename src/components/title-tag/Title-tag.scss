@@ -1,2 +1,7 @@
 @import '../../globalStyle/variables';
 
+.title-tag {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-xs;
+}

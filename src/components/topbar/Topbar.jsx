@@ -8,9 +8,9 @@ function Topbar() {
     return (
         <>
           <nav className='topbar'>
-            <LeftBtn text="Sobre mi"/>
-            <MiddleBtn text="Portfolio Diseño Gráfico"/>
-            <RightBtn text="Sobre mi"/>
+            <LeftBtn text="Diseño y desarrollo de producto" route={`/about`}/>
+            <MiddleBtn text="Diseño Gráfico" route={`/portfolio`}/>
+            <RightBtn text="Sobre mi" route={`/about`}/>
             <PrimaryBtn text="Contactar"/>
           </nav>
         </>

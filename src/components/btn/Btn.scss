@@ -10,11 +10,13 @@
     gap: $padding-xxs;
     max-width: fit-content;
     font-weight: $font-weight-medium;
+    text-decoration: none;
 
     &__primary {
         background-color: $color-mediumGreen;
         border: solid 1px $color-darkerGreen;
         color: $color-lightBeige;
+        text-decoration: none;
 
         &:hover {
             background-color: $color-darkGreen;
@@ -27,6 +29,7 @@
         background-color: $color-lighterMustard;
         border: solid 1px $color-mediumMustard;
         color: $color-darkerGreen;
+        text-decoration: none;
 
         &:hover {
             background-color: $color-lightMustard;

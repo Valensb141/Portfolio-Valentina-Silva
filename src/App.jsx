@@ -7,7 +7,7 @@ import { Link, Route, Routes } from 'react-router-dom'
 import './globalStyle/GlobalStyle.scss'
 
 //Importación de views
-import Home from './views/Home'
+import Home from './views/Home/Home'
 import About from './views/About'
 import Portfolio from './views/Portfolio'
 import Topbar from './components/topbar/Topbar'
@@ -17,9 +17,7 @@ function App() {
   return (
     <>
     <header>
-      
-      <Topbar/>
-      
+      <Topbar/>  
     </header>
     <main>
       <Routes>
