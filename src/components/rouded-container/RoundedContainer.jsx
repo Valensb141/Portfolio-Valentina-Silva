@@ -3,7 +3,7 @@ import './TextImgBlock.scss'
 
 const RoundedContainer = (props) => {
     return (
-        <div className={props.rounded-container}>
+        <div className={props.borderRadius}>
             
         </div>
     );
