@@ -1,0 +1,12 @@
+@import '../../globalStyle/variables';
+
+.space__text__block {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;    
+}
+
+.text__block {
+    display: flex;
+    width: 50%;
+}

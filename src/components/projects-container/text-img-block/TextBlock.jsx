@@ -9,9 +9,9 @@ const TextBlock = (props) => {
         
             <div className='project__content'>
                 <div className="project__description">
-                    <h4>
+                    <h2>
                         {props.title}
-                    </h4>
+                    </h2>
 
                     <p>
                         {props.description}

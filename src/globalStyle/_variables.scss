@@ -65,11 +65,11 @@ $h4-font-family:         $font-family-primary;
 
 
 // General font sizes
-$font-size-extra-small:  1rem;
+$font-size-extra-small:  15px;
 $font-size-small:        18px;
-$font-size-medium:       2rem;
-$font-size-x-medium:     2.25rem;
-$font-size-large:        3rem;
+$font-size-medium:       20px;
+$font-size-x-medium:     36px;
+$font-size-large:        40px;
 $font-size-extra-large:  4rem;
 
 // Hs font sizes (cambiar por los general font sizes o valores unicos para cada cosa)
@@ -94,7 +94,10 @@ $padding-xs:12px;
 $padding-s:24px;
 $padding-m:36px;
 $padding-l:60px;
-$padding-xl:36px;
+$padding-xl:160px;
+$padding-xxl:200px;
+$padding-xxxl:400px;
+
 
 //gap 
 $gap-xxs: 3px;
