@@ -2,9 +2,9 @@ import './TextImgBlock.scss'
 
 const TextImgBlock = (props) => {
     return (
-        <div className='project__container'>
-            <ImgBlock alt="este es el alt"/>
-            <TextBlock title="Nombre del proyecto" description="Descripción del proyecto" circleIcon={<IconArrow />}/>
+        <div className={props.direction}>
+            <ImgBlock alt={props.alt}/>
+            <TextBlock title={props.title} description={props.description} circleIcon={props.icon}/>
         </div>
 
 );

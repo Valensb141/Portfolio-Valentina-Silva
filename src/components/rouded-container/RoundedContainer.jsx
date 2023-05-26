@@ -1,12 +1,12 @@
 import './TextImgBlock.scss'
 
 
-const ImgBlock = (props) => {
+const RoundedContainer = (props) => {
     return (
-        <div className='project__img'>
-            <img src={props.src} alt={props.alt} />
+        <div className={props.rounded-container}>
+            
         </div>
     );
 };
 
-export default ImgBlock;
+export default RoundedContainer;
