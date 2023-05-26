@@ -1,11 +1,6 @@
-@import '../../globalStyle/variables';
+@import '../../../globalStyle/variables';
 
-.projects {
-    display: flex;
-    flex-direction: column;
-    
 
-}
 .project__container__imgToLeft {
     display: flex;
     background-color: $color-lighterMustard;

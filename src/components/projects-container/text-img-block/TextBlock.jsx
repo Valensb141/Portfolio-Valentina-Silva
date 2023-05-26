@@ -1,7 +1,7 @@
-import PortfolioBtn from '../btn/PortfolioBtn';
-import IconCircle from '../icon-circle/IconCircle';
+import PortfolioBtn from '../../btn/PortfolioBtn';
+import IconCircle from '../../icon-circle/IconCircle';
 import './TextImgBlock.scss'
-import IconArrow from '../icons/IconArrow';
+import IconArrow from '../../icons/IconArrow';
 
 
 const TextBlock = (props) => {

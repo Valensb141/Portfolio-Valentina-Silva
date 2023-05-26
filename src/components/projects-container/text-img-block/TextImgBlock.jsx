@@ -1,4 +1,6 @@
 import './TextImgBlock.scss'
+import TextBlock from './TextBlock';
+import ImgBlock from './ImgBlock';
 
 const TextImgBlock = (props) => {
     return (
