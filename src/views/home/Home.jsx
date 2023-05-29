@@ -19,15 +19,16 @@ export default function Home() {
         title="Hola! Soy Valentina" 
         tagtext="O Tini o Valen" 
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non maximus magna. Aenean consectetur felis id risus blandit, id sollicitudin dolor tristique. Nunc nec volutpat enim, in tincidunt metus. Donec vulputate ligula eu dui egestas ornare. Praesent eu sodales mi."
+        showPrinciples="principles__container__dont-show"
+        contactInfo='dont-show'
     />
 
-    <div>
-        <h3>Diseño de Producto</h3>
-        <ProjectsContainer />
-    </div>
+    <h2 className='seccion__title'>Diseño y Desarrollo de Producto</h2>
+
+    <ProjectsContainer />
 
     <RoundedContainer 
-        borderRadius='rouded-container rouded-container__bottom'
+        borderRadius='rouded-container rouded-container__middle'
         title="Mis principios" 
         tagtext="En lo que creo" 
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non maximus magna. Aenean consectetur felis id risus blandit, id sollicitudin dolor tristique. Nunc nec volutpat enim, in tincidunt metus. Donec vulputate ligula eu dui egestas ornare. Praesent eu sodales mi."
@@ -35,6 +36,20 @@ export default function Home() {
         principle2="Principixzcfsdfdfo1"
         principle3="Principsdfdsfdfdfdfdio1"
         principle4="Principdfdfdfdfdfdfdfdfsfio1"
+        showPrinciples="principles__container"
+        contactInfo='dont-show'
+    />
+
+    <h2 className='seccion__title'>Diseño Gráfico</h2>
+
+    <ProjectsContainer />
+
+    <RoundedContainer 
+        borderRadius='rouded-container rouded-container__bottom'
+        title="Contáctame" 
+        tagtext="Me encantaría formar parte de tu equipo" 
+        showPrinciples="principles__container__dont-show"
+        contactInfo='show'
     />
 
     </>

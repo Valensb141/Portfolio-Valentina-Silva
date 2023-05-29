@@ -8,6 +8,7 @@ const ProjectsContainer = () => {
         <section className='projects'>
             <TextImgBlock direction='project__container__imgToRight' src={me} title="Este es el proyecto" description="Esta es la descripción" icon={<IconArrow/>}/>
             <TextImgBlock direction='project__container__imgToLeft' title="Este es el proyecto" description="Esta es la descripción" icon={<IconArrow/>}/>
+            <TextImgBlock direction='project__container__imgToRight' src={me} title="Este es el proyecto" description="Esta es la descripción" icon={<IconArrow/>}/>
         </section>
 
 );

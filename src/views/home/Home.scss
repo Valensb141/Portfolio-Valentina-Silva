@@ -1,2 +1,14 @@
 @import '../../globalStyle/variables';
 
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-xl;
+    align-items: center;
+}
+
+.seccion__title {
+    margin-top: $margin-xxl;
+    margin-bottom: $margin-l;
+    align-self: center;
+}
