@@ -1,11 +1,11 @@
- import './Btn.scss';
+ import './Btns-links-tags.scss';
 //  import {Link} from "react-router-dom";
  
 
-const Tag = (props) => {
+const BtnLinkOrTag = (props) => {
      return (
          
-           <div className='btn btn__tag' to={props.route}>
+           <div className={props.type} to={props.route}>
         
               {props.text}{props.icon}
         
@@ -14,5 +14,5 @@ const Tag = (props) => {
      );
  };
 
- export default Tag;
+ export default BtnLinkOrTag;
 

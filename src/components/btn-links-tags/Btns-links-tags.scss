@@ -5,12 +5,14 @@
     font-family: $font-family-primary;
     font-weight: $font-weight-regular;
     border-radius: $border-radius-s;
-    font-size: $font-size-small;
+    font-size: $font-size-extra-small;
     display: flex;
     gap: $padding-xxs;
     max-width: fit-content;
     font-weight: $font-weight-medium;
     text-decoration: none;
+    cursor: pointer;
+
 
     &__primary {
         background-color: $color-mediumGreen;
@@ -31,6 +33,18 @@
         color: $color-darkerGreen;
         text-decoration: none;
 
+        &__topbar__left {
+            border-radius: $border-radius-s 0 0 $border-radius-s;
+        }
+
+        &__topbar__middle {
+            border-radius: 0 0 0 0;
+        }
+
+        &__topbar__right {
+            border-radius: 0 $border-radius-s $border-radius-s 0;
+        }
+
         &:hover {
             background-color: $color-lightMustard;
             color: $color-darkerGreen;
@@ -40,6 +54,7 @@
     &__tag {
         border: solid 1px $color-mediumGreen;
         color: $color-darkGreen;  
+        font-size: $font-size-medium;
     }
 
     &__portfolio {
@@ -51,10 +66,15 @@
         }
     }
 
+    &__principles {
+        background-color:$color-mediumGreen;
+        color: $color-lighterMustard;  
+        font-size: $font-size-small;
+        flex-direction: row-reverse;
+        padding: $padding-m $padding-l $padding-m $padding-l;
+        
+    }
+
 
 }
 
-.btn_flexbox {
-    display: flex;
-
-}

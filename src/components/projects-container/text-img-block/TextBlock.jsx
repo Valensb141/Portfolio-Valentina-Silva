@@ -1,7 +1,7 @@
-import PortfolioBtn from '../../btn/PortfolioBtn';
+import BtnLinkOrTag from '../../btn-links-tags/BtnLinkOrTag';
 import IconCircle from '../../icon-circle/IconCircle';
 import './TextImgBlock.scss'
-import IconArrow from '../../icons/IconArrow';
+import IconArrowGreen from '../../icons/IconArrowGreen';
 
 
 const TextBlock = (props) => {
@@ -9,9 +9,9 @@ const TextBlock = (props) => {
         
             <div className='project__content'>
                 <div className="project__description">
-                    <h2>
+                    <h3>
                         {props.title}
-                    </h2>
+                    </h3>
 
                     <p>
                         {props.description}
@@ -27,7 +27,7 @@ const TextBlock = (props) => {
                 </div>
 
                 <div className="project__btn">
-                    <PortfolioBtn text="Ver proyecto" icon={<IconArrow />}/>
+                    <BtnLinkOrTag type='btn btn__portfolio' text="Ver proyecto" icon={<IconArrowGreen />}/>
                 </div>
             </div>
         

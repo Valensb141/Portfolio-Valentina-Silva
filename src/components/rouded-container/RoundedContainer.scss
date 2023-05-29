@@ -1,27 +1,45 @@
 @import '../../globalStyle/variables';
 
-.top {
+
+.rouded-container {
     background-color: $color-lighterMustard;
-    border-radius: 1200px 1200px 0 0 ;
+    border-radius: $border-radius-xxxl;
     max-width: 1200px;
+    min-width: 840px;
     height: fit-content;
     padding: $padding-xxxl $padding-xl $padding-xl $padding-xxl;
     margin-left: auto;
     margin-right: auto;
+    
+    &__top {
+        border-radius: $border-radius-xxxl $border-radius-xxxl 0 0 ;
 
-}
+    }
 
-.bottom {
-    background-color: $color-lighterMustard;
-    border-radius: 0 0 1200px 1200px;
-    max-width: 1200px;
-    height: fit-content;
-    padding: $padding-xl $padding-xl $padding-xxxl $padding-xl;
-    margin-left: auto;
-    margin-right: auto;
+    &__bottom {
+        border-radius:  0 0 $border-radius-xxxl $border-radius-xxxl;
+        padding: $padding-xl $padding-xl $padding-xxxl $padding-xxl;
+    }
 
 }
 
 .content {
     max-width: 800px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: $gap-xl;
+
+}
+.principles__container {
+    display: flex;
+    gap: $gap-l;
+    justify-content: center;
+}
+
+.principles__subcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-l;
+    width: 380px;
 }

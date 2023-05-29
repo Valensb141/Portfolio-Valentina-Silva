@@ -1,13 +1,22 @@
+import BtnLinkOrTag from '../btn-links-tags/BtnLinkOrTag';
 import './SpaceTextBlock.scss';
+import IconArrowGreen from '../icons/IconArrowGreen';
+
 
 const SpaceTextBlock = (props) => {
     return (
         
         <>
             <div className='space__text__block'>
-                <article className='text__block'>
-                    <p> {props.text} </p>
-                </article>
+                <div className='text__block'>
+                    <article>
+                        <p> {props.text} </p>
+                    </article>
+
+                    <div className='btn__to-the-right'>
+                        <BtnLinkOrTag type='btn btn__portfolio' text="Saber más sobre mi" icon={<IconArrowGreen />}/>
+                    </div>
+                </div>
             </div>
             
         </>

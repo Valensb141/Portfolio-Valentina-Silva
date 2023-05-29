@@ -3,3 +3,29 @@ h1, h2, h3, h4, h5 {
     padding: 0;
 
 }
+
+h1 {
+    font-family: $font-family-secondary;
+    font-size: $font-size-extra-large;
+}
+
+h2 {
+    font-family: $font-family-secondary;
+    font-size: $font-size-extra-large;
+}
+
+h3 {
+    font-family: $font-family-primary;
+    font-size: $font-size-medium;
+    font-weight: $font-weight-medium;
+}
+
+h4 {
+    font-family: $font-family-primary;
+    font-size: $font-size-small;
+}
+
+p {
+    font-family: $font-family-primary;
+    font-size: $font-size-small;  
+}

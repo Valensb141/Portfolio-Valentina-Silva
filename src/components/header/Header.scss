@@ -1,0 +1,19 @@
+
+@import '../../globalStyle/variables';
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-xl;
+    margin: 0 auto 0 auto;
+    align-items: center;
+    height: 60vh;
+    justify-content: center;
+}
+
+// .name {
+//     // font-family: "bely", serif;
+//     // font-weight: 400;
+//     // font-style: normal;
+//     // font-size: 80px; 
+// }

@@ -54,8 +54,8 @@ $mapa-colores: (
 
 
 // Font family
-$font-family-primary:   'Quicksand', sans-serif;
-$font-family-secondary: 'Quicksand', sans-serif;
+$font-family-primary:   'Montserrat', sans-serif;
+$font-family-secondary: "dashiell-fine", serif;;
 
 // Hs font families (primaria es la que se usa para todo lo general y la secundaria es para titulos o casos más particulares)
 $h1-font-family:         $font-family-secondary;
@@ -65,12 +65,12 @@ $h4-font-family:         $font-family-primary;
 
 
 // General font sizes
-$font-size-extra-small:  15px;
-$font-size-small:        18px;
-$font-size-medium:       20px;
+$font-size-extra-small:  18px;
+$font-size-small:        22px;
+$font-size-medium:       28px;
 $font-size-x-medium:     36px;
 $font-size-large:        40px;
-$font-size-extra-large:  4rem;
+$font-size-extra-large:  72px;
 
 // Hs font sizes (cambiar por los general font sizes o valores unicos para cada cosa)
 $h1-font-size:           $font-size-extra-large;
@@ -105,10 +105,12 @@ $gap-xs: 6px;
 $gap-s: 12px;
 $gap-m: 24px;
 $gap-l: 32px;
+$gap-xl: 60px;
 
 //border-radious
 $border-radius-s: 60px; 
 $border-radius-m: 180px; 
+$border-radius-xxxl: 1200px;
 
 
 //grid
