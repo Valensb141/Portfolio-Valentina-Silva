@@ -10,7 +10,10 @@ const RoundedContainer = (props) => {
         <div className={props.borderRadius}>
             <div className='content'>
                 <TitleTag title={props.title} tagtext={props.tagtext}/>
-                <SpaceTextBlock  text={props.text}/>
+
+                <div className={props.textAndBtn}>
+                    <SpaceTextBlock  text={props.text} btn={props.btn}/>
+                </div>
                 
             <div className={props.showPrinciples}>
                 <div className='principles__subcontainer'>
@@ -24,8 +27,8 @@ const RoundedContainer = (props) => {
                 </div>
             </div>
 
-            <div className={props.contactInfo}>
-                <p>Valentinasilva141@gmail.com</p>
+            <div className={props.contactInfo}> 
+                <p className='mail'>Valentinasilva141@gmail.com</p>
 
                 <div className='social__btns'>
                     <BtnLinkOrTag type='btn btn__primary' text="Linkedin" route={`/about`} icon={<IconArrow />}/>

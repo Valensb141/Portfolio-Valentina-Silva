@@ -60,13 +60,13 @@
 }
 
 
-.show {
+.contact__show {
     display: flex;
     flex-direction: column;
     gap: $gap-m;
 }
 
-.dont-show {
+.contact__dont-show {
     display: none;
 }
 
@@ -75,3 +75,21 @@
     gap: $gap-s;
 }
 
+.btn__show {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn__dont-show {
+    display: none;
+}
+
+.text-btn__dontshow {
+    display: none;
+}
+
+.mail {
+    font-family: $font-family-secondary;
+    font-size: $font-size-large;
+    
+}
