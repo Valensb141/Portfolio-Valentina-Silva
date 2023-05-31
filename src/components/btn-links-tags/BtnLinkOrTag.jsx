@@ -1,4 +1,4 @@
- import './Btns-links-tags.scss';
+import './Btns-links-tags.scss';
 import {Link} from "react-router-dom";
  
 
