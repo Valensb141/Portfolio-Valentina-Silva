@@ -16,16 +16,19 @@ h2 {
 
 h3 {
     font-family: $font-family-primary;
-    font-size: $font-size-medium;
+    font-size: $font-size-large;
     font-weight: $font-weight-medium;
+    
 }
 
 h4 {
     font-family: $font-family-primary;
-    font-size: $font-size-small;
+    font-size: $font-size-x-medium;
+    font-weight: $font-weight-medium;
+    
 }
 
 p {
     font-family: $font-family-primary;
-    font-size: $font-size-small;  
+    font-size: $font-size-normal;  
 }

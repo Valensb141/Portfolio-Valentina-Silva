@@ -12,3 +12,26 @@
     margin-bottom: $margin-l;
     align-self: center;
 }
+
+.img__duo {
+    display: flex;
+    gap: $gap-xxl;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -120px;
+}
+
+.img__one {
+    width: 450px;
+    height: 500px;
+    object-fit: cover;
+    transform: rotate(-15deg);
+}
+
+
+.img__two {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    transform: rotate(5deg);
+}

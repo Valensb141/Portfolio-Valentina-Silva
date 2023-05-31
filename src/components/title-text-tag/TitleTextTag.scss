@@ -1,1 +1,36 @@
 @import '../../globalStyle/variables';
+.header-block {
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    //align-items: center;
+}
+
+.studies-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    //gap: $gap-xs;
+}
+
+.experience-block {
+    background-color: $color-darkerGreen;
+    padding: $padding-l;
+    color: $color-lighterMustard;
+    border-radius: $border-radius-xs;
+    width: 50%;
+}
+.p__dont-show {
+    display: none;
+}
+
+.tag__dont-show {
+    display: none;
+}
+
+.location-date {
+    display: flex;
+    gap: $gap-s;
+    align-items: center;
+}

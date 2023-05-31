@@ -55,6 +55,12 @@
         border: solid 1px $color-mediumGreen;
         color: $color-darkGreen;  
         font-size: $font-size-medium;
+
+        &__size-small {
+            font-size: $font-size-small;
+        }
+
+        
     }
 
     &__portfolio {

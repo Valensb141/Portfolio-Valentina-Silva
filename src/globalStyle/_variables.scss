@@ -69,7 +69,8 @@ $font-size-extra-small:  14px;
 $font-size-small:        16px;
 $font-size-normal:       20px;
 $font-size-medium:       24px;
-$font-size-x-medium:     36px;
+$font-size-x-medium:     28px;
+$font-size-xx-medium:    36px;
 $font-size-large:        40px;
 $font-size-extra-large:  72px;
 
@@ -101,16 +102,19 @@ $padding-xxxl:400px;
 
 
 //gap 
-$gap-xxs: 3px;
-$gap-xs: 6px;
-$gap-s: 12px;
-$gap-m: 24px;
-$gap-l: 32px;
-$gap-xl: 60px;
+$gap-xxs:    3px;
+$gap-xs:     6px;
+$gap-s:      12px;
+$gap-m:      24px;
+$gap-l:      32px;
+$gap-xl:     60px;
+$gap-xxl:    72px;
+$gap-xxxl:   160px;
 
 //border-radious
-$border-radius-s: 60px; 
-$border-radius-m: 180px; 
+$border-radius-xs:   30px; 
+$border-radius-s:    60px; 
+$border-radius-m:    180px; 
 $border-radius-xxxl: 1200px;
 
 //gap 

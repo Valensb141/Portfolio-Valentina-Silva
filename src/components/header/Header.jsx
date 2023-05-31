@@ -6,7 +6,7 @@ const Header = (props) => {
     return (
        
         <div className='header'>
-                <h3>Portfolio</h3>
+                <h4>Portfolio</h4>
                 <h1 className='name'>Valentina Silva</h1>
                 <BtnLinkOrTag  type='btn btn__tag' text={props.tagtext}/>
         </div>

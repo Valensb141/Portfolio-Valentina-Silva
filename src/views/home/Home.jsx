@@ -3,6 +3,7 @@ import ProjectsContainer from '../../components/projects-container/ProjectsConta
 import RoundedContainer from '../../components/rouded-container/RoundedContainer';
 import Header from '../../components/header/header';
 import './home.scss'
+import me from '../../images/me.png'
 
 
 export default function Home() {
@@ -23,6 +24,11 @@ export default function Home() {
         contactInfo='contact__dont-show'
         btn='btn__show'
     />
+
+    <div className="img__duo">
+        <img className='img__one' src={me} alt="" />
+        <img className='img__two' src={me} alt="" />
+    </div>
 
     <h2 className='seccion__title'>Diseño y Desarrollo de Producto</h2>
 
