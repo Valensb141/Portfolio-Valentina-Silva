@@ -31,9 +31,9 @@ const RoundedContainer = (props) => {
                 <p className='mail'>Valentinasilva141@gmail.com</p>
 
                 <div className='social__btns'>
-                    <BtnLinkOrTag type='btn btn__primary' text="Linkedin" route={`/about`} icon={<IconArrow />}/>
-                    <BtnLinkOrTag type='btn btn__primary' text="GitHub" route={`/about`} icon={<IconArrow />}/>
-                    <BtnLinkOrTag type='btn btn__primary' text="Instagram" route={`/about`} icon={<IconArrow />}/>
+                    <BtnLinkOrTag type='btn btn__primary' text="Linkedin" to={`/about`} icon={<IconArrow />}/>
+                    <BtnLinkOrTag type='btn btn__primary' text="GitHub" to={`/about`} icon={<IconArrow />}/>
+                    <BtnLinkOrTag type='btn btn__primary' text="Instagram" to={`/about`} icon={<IconArrow />}/>
                 </div>
 
             </div>

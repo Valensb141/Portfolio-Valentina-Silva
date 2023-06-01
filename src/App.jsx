@@ -10,6 +10,7 @@ import './globalStyle/GlobalStyle.scss'
 import Home from './views/Home/Home.jsx'
 import About from './views/about/About.jsx'
 import Portfolio from './views/Portfolio.jsx'
+import Project from './views/project/Project'
 import Topbar from './components/topbar/Topbar.jsx'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Portfolio" element={<Portfolio />} />
+        <Route path="/project" element={<Project />} />
       </Routes>
     </main>
     </>

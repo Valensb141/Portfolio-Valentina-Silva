@@ -2,7 +2,7 @@ import './About.scss'
 import me from '../../images/me.png'
 import BtnLinkOrTag from '../../components/btn-links-tags/BtnLinkOrTag'
 import TitleTextTag from '../../components/title-text-tag/TitleTextTag'
-import ImgBlock from '../../components/projects-container/text-img-block/ImgBlock'
+
 export default function About() {
     return <>
     <div className="about__display">
@@ -43,7 +43,7 @@ export default function About() {
 
         <div className="right__div">
             <div className="img-hello-decription">
-                <div className="img__round">
+                <div className="img">
                     <img className="img__round" src={me} alt="" />
                 </div>
                 <div className="hello-description">
@@ -56,7 +56,8 @@ export default function About() {
                         //fecha="Oct 22 – Jun 23"
                         type='header-block'
                         //showTag='tag__dont-show'
-                        //showParagraph='p__dont-show'
+                        //showDescription2='p__dont-show'
+                        projectSmallDescriptionShow='project-small-description__dont-Show'
                         />
                 </div>
             </div>
@@ -70,7 +71,8 @@ export default function About() {
                 fecha="Oct 22 – Jun 23"
                 type='studies-block'
                 // showTag='tag__dont-show'
-                showParagraph='p__dont-show'
+                showDescription2='p__dont-show'
+                projectSmallDescriptionShow='project-small-description__dont-Show'
                 />
 
                 <TitleTextTag 
@@ -80,7 +82,8 @@ export default function About() {
                 fecha="Feb 22 - Jun 22"
                 type='studies-block'
                 // showTag='tag__dont-show'
-                showParagraph='p__dont-show'
+                showDescription2='p__dont-show'
+                projectSmallDescriptionShow='project-small-description__dont-Show'
                 />
 
                 <TitleTextTag 
@@ -90,7 +93,8 @@ export default function About() {
                 fecha="Sept 18 – Jun 22"
                 type='studies-block'
                 // showTag='tag__dont-show'
-                showParagraph='p__dont-show'
+                showDescription2='p__dont-show'
+                projectSmallDescriptionShow='project-small-description__dont-Show'
                 />
             </div>
 
@@ -110,7 +114,8 @@ export default function About() {
                         fecha="Sep 20 – Actualidad "
                         type='experience-block'
                         // showTag='tag__dont-show'
-                        //showParagraph='p__dont-show'
+                        //showDescription2='p__dont-show'
+                        projectSmallDescriptionShow='project-small-description__dont-Show'
                         />
 
                     <TitleTextTag 
@@ -123,7 +128,8 @@ export default function About() {
                         fecha="Nov 21 – Dic 21"
                         type='experience-block'
                         // showTag='tag__dont-show'
-                        //showParagraph='p__dont-show'
+                        //showDescription2='p__dont-show'
+                        projectSmallDescriptionShow='project-small-description__dont-Show'
                         />
                 </div>
             </div>

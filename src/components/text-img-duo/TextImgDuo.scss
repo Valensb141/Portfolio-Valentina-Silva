@@ -1,0 +1,56 @@
+@import '../../globalStyle/variables';
+
+.text-img-duo {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: $gap-xl;
+    align-items: center;
+    justify-content: space-between;
+    //margin-bottom: $margin-xxxl;
+}
+
+.img {
+    width: 380px;
+    height: 380px;
+
+
+    &__round {
+        border-radius: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__square {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.img__halfpage {
+    width: 50%;
+    height: 100%;
+
+
+    &__round {
+        border-radius: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__square {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-s;
+    width: 50%;
+    
+}

@@ -2,7 +2,10 @@
 .header-block {
     display: flex;
     flex-direction: column;
-    //justify-content: center;
+    justify-content: space-between;
+    //gap: $gap-s;
+    width: 50%;
+    height: 100%;
     //align-items: center;
 }
 
@@ -33,4 +36,8 @@
     display: flex;
     gap: $gap-s;
     align-items: center;
+}
+
+.project-small-description__dont-Show {
+    display: none;
 }

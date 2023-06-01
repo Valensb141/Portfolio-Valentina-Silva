@@ -1,0 +1,33 @@
+@import '../../globalStyle/variables';
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1.5px $color-darkGreen;
+    padding: $padding-s 0 $padding-s 0;
+    align-items: center;
+}
+
+.subdescription {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-xs;
+    margin: 0;
+    
+
+    &__category {
+        font-size: $font-size-extra-small;
+        font-weight: $font-weight-bold;
+        color: $color-darkGreen;
+        margin: 0;
+
+        &__content  {
+            color: $color-mediumGreen;
+            font-weight: $font-weight-medium;
+            margin: 0;
+        }
+    }
+    
+    
+}
+
