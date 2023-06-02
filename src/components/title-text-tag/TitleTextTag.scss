@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     //gap: $gap-s;
-    width: 50%;
+    //width: 50%;
     height: 100%;
     //align-items: center;
 }
@@ -24,6 +24,25 @@
     border-radius: $border-radius-xs;
     width: 50%;
 }
+
+
+
+.trio__single__block {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-s;
+    flex-wrap: nowrap;
+    
+    
+}
+.title__small {
+    font-size: $font-size-normal;
+}
+
+.main__title__small {
+    font-size: $font-size-medium;
+}
+
 .p__dont-show {
     display: none;
 }
@@ -41,3 +60,4 @@
 .project-small-description__dont-Show {
     display: none;
 }
+

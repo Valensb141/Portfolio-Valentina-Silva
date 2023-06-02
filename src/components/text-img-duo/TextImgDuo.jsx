@@ -1,5 +1,6 @@
+import ProjectSmallDescription from '../project-small-description/ProjectSmallDescription'
 import './TextImgDuo.scss'
-import TitleTextTag from "../title-text-tag/TitleTextTag"
+
 
 export default function TextImgDuo(props) {
     return  (
@@ -12,28 +13,21 @@ export default function TextImgDuo(props) {
                     alt={props.alt} />
                 </div>
 
-                
-                    <TitleTextTag 
-                        type={props.type}
-                        title={props.title}
-                        bigTitleClass={props.bigTitleClass}
-                        bigTitleText={props.bigTitleText}
-                        description1={props.description1}
-                        showDescription2={props.showDescription2}
-                        description2={props.description2}
-                        showTag={props.showTag}
-                        tagText={props.tagText}
-                        fecha={props.fecha}
+                <div className="title-description">
+                <div className="title__description__container">
+                    <h1 className="main__title">{props.title}</h1>
+                    <p>{props.text}</p>
+                </div>
 
-                        projectSmallDescriptionShow={props.projectSmallDescriptionShow}
-                        category1={props.category1}
-                        categoryContent1={props.categoryContent1}
-                        category2={props.category2}
-                        categoryContent2={props.categoryContent2}
-                        btnText={props.btnText}
-                        to={props.to}
-                        />
-                
+                <ProjectSmallDescription
+                    category1={props.category1}
+                    categoryContent1={props.categoryContent1}
+                    category2={props.category2}
+                    categoryContent2={props.categoryContent2}
+                    btnText={props.btnText}
+                    to={props.to}
+                />
+                </div>
             </div>
         </>
     )

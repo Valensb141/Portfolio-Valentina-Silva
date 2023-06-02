@@ -7,8 +7,9 @@ const TitleTextTag = (props) => {
     return (
        
         <div className={props.type}>
-            <div>
-                <h4>{props.title}</h4>
+
+            <div className={props.upperBlockClass}>
+                <h4 className={props.titleClass}>{props.title}</h4>
                 <h2 className={props.bigTitleClass}>{props.bigTitleText}</h2>
                 <p>{props.description1}</p>
                 <p className={props.showDescription2}>{props.description2}</p>

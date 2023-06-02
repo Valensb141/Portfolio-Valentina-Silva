@@ -6,6 +6,7 @@
     gap: $gap-xl;
     align-items: center;
     justify-content: space-between;
+    height: 500px;
     //margin-bottom: $margin-xxxl;
 }
 
@@ -53,4 +54,17 @@
     gap: $gap-s;
     width: 50%;
     
+}
+
+.main__title {
+    margin-bottom: $margin-m;
+    font-size: $font-size-extra-large;
+}
+
+.title-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
 }

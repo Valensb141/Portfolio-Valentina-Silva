@@ -1,0 +1,18 @@
+@import '../../globalStyle/variables';
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-m;
+    padding: 0 $padding-m 0 $padding-m;
+}
+
+.title {
+    text-transform: uppercase;
+    border-bottom: solid 1.5px $color-darkerGreen;
+    padding-bottom: $padding-s;
+}
+
+.main__text {
+    font-size: $font-size-x-medium;
+}
