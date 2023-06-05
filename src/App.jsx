@@ -12,6 +12,9 @@ import About from './views/about/About.jsx'
 import Portfolio from './views/Portfolio.jsx'
 import Project from './views/project/Project'
 import Topbar from './components/topbar/Topbar.jsx'
+import ProjectDesignAvenue from './views/project-design-avenue/Project'
+import ProjectCalculator from './views/project-calculator/Project'
+import ProjectToDoApp from './views/project-to-do/Project'
 
 function App() {
 
@@ -26,6 +29,11 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Portfolio" element={<Portfolio />} />
         <Route path="/project" element={<Project />} />
+        <Route path="/project-to-do" element={<ProjectToDoApp />} />
+        <Route path="/project-calculator" element={<ProjectCalculator />} />
+        <Route path="/project-design-avenue" element={<ProjectDesignAvenue />} />
+
+
       </Routes>
     </main>
     </>

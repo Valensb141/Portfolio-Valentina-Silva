@@ -1,22 +1,30 @@
-// import PrimaryBtn from '../btn/PrimaryBtn';
-// import MiddleBtn from './MiddleBtn';
-// import LeftBtn from './LeftBtn';
-// import RightBtn from './RightBtn';
 import './Topbar.scss';
 import BtnLinkOrTag from '../btn-links-tags/BtnLinkOrTag';
+import { useState } from "react";
 
 function Topbar() {
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
+
+  const handleShowMenuClick = () => {
+    setShowMobileMenu(!showMobileMenu);
+  };
+
     return (
         <>
-          <nav className='topbar'>
-          <BtnLinkOrTag type='btn btn__secondary btn__secondary__topbar__left' text="Home" to={`/`}/>
-          <BtnLinkOrTag type='btn btn__secondary btn__secondary__topbar__middle' text="Diseño y desarrollo de producto" to={`/About`}/>
-          <BtnLinkOrTag type='btn btn__secondary btn__secondary__topbar__middle' text="Diseño Gráfico" to={`/about`}/>
-          <BtnLinkOrTag type='btn btn__secondary btn__secondary__topbar__right' text="Sobre mi" to={`/About`}/>
-          <BtnLinkOrTag type='btn btn__primary' text="Contacto" to={`/about`}/>
-
+          <nav className={`topbar ${showMobileMenu ? "topbar__show" : ""}`}>
+            <button className="topbar__close" onClick={handleShowMenuClick}>X</button>
+            <BtnLinkOrTag type='btn btn__secondary btn__secondary__topbar__left' text="Home" to={`/`}/>
+            <BtnLinkOrTag type='btn btn__secondary btn__secondary__topbar__middle' text="Diseño y desarrollo de producto" to={`/About`}/>
+            <BtnLinkOrTag type='btn btn__secondary btn__secondary__topbar__middle' text="Diseño Gráfico" to={`/about`}/>
+            <BtnLinkOrTag type='btn btn__secondary btn__secondary__topbar__right' text="Sobre mi" to={`/About`}/>
+            <BtnLinkOrTag type='btn btn__primary' text="Contacto" to={`/about`}/>
           </nav>
-        </>
+
+          <button className="show__menu" onClick={handleShowMenuClick}>X</button>
+          <div className="show__menu">
+          <BtnLinkOrTag type='btn btn__primary' text="Contacto" to={`/about`}/>
+          </div>
+        </>      
     )
 }
 

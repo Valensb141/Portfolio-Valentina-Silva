@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    //gap: $gap-xs;
+    gap: $gap-s;
 }
 
 .experience-block {
@@ -25,6 +25,16 @@
     width: 50%;
 }
 
+.experience-block-inner {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-darkerGreen;
+    //padding: $padding-l;
+    color: $color-lighterMustard;
+    //border-radius: $border-radius-xs;
+    //width: 50%;
+    gap: $gap-m;
+}
 
 
 .trio__single__block {

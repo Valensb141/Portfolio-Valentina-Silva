@@ -6,10 +6,10 @@ import me from '../../images/me.png'
 const ProjectsContainer = () => {
     return (
         <section className='projects'>
-            <TextImgBlock direction='project__container__imgToRight' src="" title="Este es el proyecto" description="Esta es la descripción" icon={<IconArrow/>}/>
-            <TextImgBlock direction='project__container__imgToLeft' title="Este es el proyecto" description="Esta es la descripción" icon={<IconArrow/>}/>
-            <TextImgBlock direction='project__container__imgToRight' src="" title="Este es el proyecto" description="Esta es la descripción" icon={<IconArrow/>}
-            to={`/project`}/>
+            <TextImgBlock direction='project__container__imgToRight' src="" title="To Do List App" description="Esta es la descripción" icon={<IconArrow/>} to={`/project-to-do`}/>
+            <TextImgBlock direction='project__container__imgToLeft' title="Calculator" description="Esta es la descripción" icon={<IconArrow/>} to={`/project-calculator`}/>
+            <TextImgBlock direction='project__container__imgToRight' src="" title="Design Avenue" description="Esta es la descripción" icon={<IconArrow/>}
+            to={`/project-design-avenue`}/>
         </section>
 
 );

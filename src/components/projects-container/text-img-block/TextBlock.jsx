@@ -2,6 +2,7 @@ import BtnLinkOrTag from '../../btn-links-tags/BtnLinkOrTag';
 import IconCircle from '../../icon-circle/IconCircle';
 import './TextImgBlock.scss'
 import IconArrowGreen from '../../icons/IconArrowGreen';
+import IconArrow from '../../icons/IconArrow';
 
 
 const TextBlock = (props) => {
@@ -18,10 +19,8 @@ const TextBlock = (props) => {
                     </p>
 
                     <div className='project__icons'>
-                        <IconCircle icon={props.circleIcon}/>
-                        <IconCircle icon={props.circleIcon}/>
-                        <IconCircle icon={props.circleIcon}/>
-                        <IconCircle icon={props.circleIcon}/>
+                        <IconCircle icon={<IconArrow/>} />
+                        
                     </div>
 
                 </div>

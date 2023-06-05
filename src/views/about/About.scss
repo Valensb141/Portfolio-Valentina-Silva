@@ -120,7 +120,11 @@
     flex-direction: column;
     gap: $gap-s;
     width: 60%;
-    
+
+    &__inner {
+        gap: $gap-m;
+        width: 100%;
+    }
 }
 
 .experience {
@@ -137,3 +141,109 @@
     margin-top: $margin-l;
 }
 
+
+.languajes__trio {
+    display:flex;
+    width: 100%;
+    height: 450px;
+    gap: $gap-m;
+    //justify-content: space-between;
+}
+
+.secondary__typography__large {
+    font-family: $font-family-secondary;
+    font-size: $font-size-large;
+}
+
+.languajes__spanish {
+    height: 80%;
+    background-color: $color-darkGreen;
+    border-radius: 0 0 $border-radius-m  0;
+    padding: $padding-l;
+    justify-content: center;
+    color: $color-lighterMustard;
+    width: calc(100%/3);
+    font-size: $font-size-medium;
+}
+
+
+
+.languajes__english {
+    height: 60%;
+    background-color: $color-mediumGreen;
+    border-radius: 0 0 $border-radius-m  0;
+    padding: $padding-l;
+    justify-content: center;
+    color: $color-lighterMustard;
+    width: calc(100%/3);
+    font-size: $font-size-medium;
+}
+
+.languajes__italian {
+    //display: flex;
+    flex-direction: column;
+    height: 30%;
+    background-color: $color-lightGreen;
+    border-radius: 0 0 $border-radius-m  0;
+    padding: $padding-l;
+    justify-content: center;
+    color: $color-lighterMustard;
+    width: calc(100%/3);
+    font-size: $font-size-medium;
+    //gap: $gap-xs;
+}
+
+.circle-1 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background-color: $color-mediumBeige;
+    border-radius: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-main {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color: $color-mediumBeige;
+    border-radius: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-family-secondary;
+    font-size: $font-size-extra-large;
+}
+
+.circle-duo-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.soft-skills {
+    display: flex;
+    align-items: center;
+}
+
+.hard-skills {
+    display:flex;
+    width: 100%;
+    gap: $gap-l;
+
+    
+}
+
+.hard-skills-icons {
+    display: flex;
+    gap: $gap-s;
+    width: calc(100%/3);
+}
+
+.hard-skills__container {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-l;
+
+}

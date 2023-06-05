@@ -13,6 +13,7 @@
     text-decoration: none;
     cursor: pointer;
     height: fit-content;
+    
 
 
 
@@ -51,11 +52,17 @@
             background-color: $color-lightMustard;
             color: $color-darkerGreen;
         }
+
+        @media (max-width: 600px) {
+            border: none;
+            font-size: $font-size-x-medium;
+            font-family: $font-family-secondary;
+        }
     }
 
     &__tag {
         border: solid 1px $color-mediumGreen;
-        color: $color-darkGreen;  
+        color: $color-mediumGreen;  
         font-size: $font-size-medium;
 
         &__size-small {

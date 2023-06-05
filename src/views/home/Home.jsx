@@ -4,6 +4,7 @@ import RoundedContainer from '../../components/rouded-container/RoundedContainer
 import Header from '../../components/header/header';
 import './home.scss'
 import me from '../../images/me.png'
+import { Link } from 'react-router-dom';
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
         showPrinciples="principles__container__dont-show"
         contactInfo='contact__dont-show'
         btn='btn__show'
+        to={`/About`}
     />
 
     <div className="img__duo">
@@ -30,6 +32,7 @@ export default function Home() {
         <img className='img__two' src={me} alt="" />
     </div>
 
+    <Link name="producto"></Link>
     <h2 className='seccion__title'>Diseño y Desarrollo de Producto</h2>
 
     <ProjectsContainer />
@@ -45,6 +48,7 @@ export default function Home() {
         principle4="Principdfdfdfdfdfdfdfdfsfio1"
         showPrinciples="principles__container"
         contactInfo='contact__dont-show'
+        to={`/About`}
     />
 
     <h2 className='seccion__title'>Diseño Gráfico</h2>

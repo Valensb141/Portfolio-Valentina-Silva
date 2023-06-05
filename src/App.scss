@@ -1,4 +1,17 @@
+@import './globalStyle/variables';
+
 #root {
     width: 100%;
     margin: 0;
+}
+.footer {
+    display: flex;
+    //margin-top: $margin-xl;
+    margin-left: 0;
+    margin-right: 0;
+    padding: $padding-s $padding-l;
+    //max-width: 1200px;
+    min-width: 840px;
+    justify-content: center;
+    //background-color: $color-mediumGreen;
 }

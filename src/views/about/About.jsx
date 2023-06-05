@@ -2,6 +2,8 @@ import './About.scss'
 import me from '../../images/me.png'
 import BtnLinkOrTag from '../../components/btn-links-tags/BtnLinkOrTag'
 import TitleTextTag from '../../components/title-text-tag/TitleTextTag'
+import IconArrow from '../../components/icons/IconArrow'
+import IconCircle from '../../components/icon-circle/IconCircle'
 
 export default function About() {
     return <>
@@ -14,6 +16,8 @@ export default function About() {
                 <p>Valencia, España</p>
                 {/* <BtnLinkOrTag  type='btn btn__tag' text="Valencia, España"/> */}
             </div>
+
+            
 
             <div className='idiomas__container'>
                 {/* <p className='text__cv__border'><strong>IDIOMAS</strong></p> */}
@@ -58,9 +62,17 @@ export default function About() {
                         //showTag='tag__dont-show'
                         //showDescription2='p__dont-show'
                         projectSmallDescriptionShow='project-small-description__dont-Show'
+                        upperBlockClass='hello-description hello-description__inner'
                         />
                 </div>
             </div>
+
+            <div className="languajes__trio">
+                <div className="languajes__spanish"><strong className='secondary__typography__large'>Castellano: </strong><br></br>nativo</div>
+                <div className="languajes__english"><strong className='secondary__typography__large'>Inglés: </strong><br></br>fluido</div>
+                <div className="languajes__italian"><strong className='secondary__typography__large'>Italiano: </strong><br></br>básico</div>
+            </div>
+
 
             <div className='studies'>
                 <h3>Formación</h3>
@@ -73,6 +85,7 @@ export default function About() {
                 // showTag='tag__dont-show'
                 showDescription2='p__dont-show'
                 projectSmallDescriptionShow='project-small-description__dont-Show'
+                upperBlockClass='studies-block'
                 />
 
                 <TitleTextTag 
@@ -84,6 +97,7 @@ export default function About() {
                 // showTag='tag__dont-show'
                 showDescription2='p__dont-show'
                 projectSmallDescriptionShow='project-small-description__dont-Show'
+                upperBlockClass='studies-block'
                 />
 
                 <TitleTextTag 
@@ -95,6 +109,7 @@ export default function About() {
                 // showTag='tag__dont-show'
                 showDescription2='p__dont-show'
                 projectSmallDescriptionShow='project-small-description__dont-Show'
+                upperBlockClass='studies-block'
                 />
             </div>
 
@@ -106,31 +121,78 @@ export default function About() {
                     <TitleTextTag 
                         title="Freelance de Diseño Gráfico"
                         description1="Servicio de Diseño Gráfico"
-                        description2="Diseño de branding para nuevas empresas utilizando Illustrator y Photoshop.
-                        Diseño de catálogos y menús utilizando Illustrator, Photoshop e Indesign.
-                        Diseño para redes sociales utilizando Figma, Illustrator, Photoshop y Canva.
-                        Diseño de etiquetas, tarjetas y flyers utilizando Illustrator, Photoshop e Indesign."
+                        description2="Creación de branding para nuevas empresas, diseño de catálogos, menús, etiquetas y flyers, diseño para redes sociales."
                         tagText="Online"
-                        fecha="Sep 20 – Actualidad "
+                        fecha="Sep 2020 – Actualidad "
                         type='experience-block'
                         // showTag='tag__dont-show'
                         //showDescription2='p__dont-show'
                         projectSmallDescriptionShow='project-small-description__dont-Show'
+                        upperBlockClass='experience-block-inner'
                         />
 
                     <TitleTextTag 
                         title="Maxi Products Group, S.L · Prácticas"
                         description1="Técnico de Producto"
                         description2="Desarrollo de proyecto de análisis y fichas técnicas de producto con el objetivo de estructurar las características técnicas y logísticas de cada producto de catálogo.
-                        Control de calidad de los productos del catálogo
-                        Uso de instrumentos de medición mecánica y Microsoft Excel."
+                        Control de calidad de los productos del catálogo haciendo uso de instrumentos de medición mecánica y Microsoft Excel."
                         tagText="Ibi, España"
-                        fecha="Nov 21 – Dic 21"
+                        fecha="Nov 2021 – Dic 2021"
                         type='experience-block'
                         // showTag='tag__dont-show'
                         //showDescription2='p__dont-show'
                         projectSmallDescriptionShow='project-small-description__dont-Show'
+                        upperBlockClass='experience-block-inner'
                         />
+                </div>
+            </div>
+
+            <div className="soft-skills">
+                    <div className="circle-1">Soft skill 1</div>
+                <div className="circle-duo-1">
+                    <div className="circle-1">Soft skill 1</div>
+                    <div className="circle-1">Soft skill 1</div>
+                </div>
+
+                <div className="circle-main">Soft<br></br>Skills</div>
+
+                <div className="circle-duo-1">
+                    <div className="circle-1">Soft skill 1</div>
+                    <div className="circle-1">Soft skill 1</div>
+                </div>
+
+                    <div className="circle-1">Soft skill 1</div>
+
+            </div>
+            
+
+            <div className="hard-skills__container">
+
+                <h3>Hard Skills</h3> 
+
+                <div className="hard-skills">
+                
+                    <div className="hard-skills-icons">
+                            <IconCircle icon={<IconArrow/>}/>
+                            <IconCircle icon={<IconArrow/>}/>
+                            <IconCircle icon={<IconArrow/>}/>
+                            <IconCircle icon={<IconArrow/>}/>
+                            <IconCircle icon={<IconArrow/>}/>
+                    </div>
+                    <div className="hard-skills-icons">
+                    <IconCircle icon={<IconArrow/>}/>
+                            <IconCircle icon={<IconArrow/>}/>
+                            <IconCircle icon={<IconArrow/>}/>
+                            <IconCircle icon={<IconArrow/>}/>
+                            <IconCircle icon={<IconArrow/>}/>
+                    </div>
+                    <div className="hard-skills-icons">
+                    <IconCircle icon={<IconArrow/>}/>
+                            <IconCircle icon={<IconArrow/>}/>
+                            <IconCircle icon={<IconArrow/>}/>
+                            <IconCircle icon={<IconArrow/>}/>
+                            <IconCircle icon={<IconArrow/>}/>
+                    </div>
                 </div>
             </div>
 

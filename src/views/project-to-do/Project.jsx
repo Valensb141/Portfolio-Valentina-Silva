@@ -4,7 +4,8 @@ import TextImgDuo from '../../components/text-img-duo/TextImgDuo'
 import me from '../../images/me.png'
 //import TitleTextTag from '../../components/title-text-tag/TitleTextTag'
 import InfoBlock from '../../components/info__block/InfoBlock'
-export default function Project() {
+
+export default function ProjectToDoApp() {
     return  (
         <>
         <div className="project__main">
@@ -21,7 +22,7 @@ export default function Project() {
                 category2="Year"
                 categoryContent2="2023"
                 btnText="GitHub"
-                //to={props.to}
+                to={'https://github.com/Valensb141'}
                 />
             </section>
 

@@ -11,6 +11,7 @@
     display: flex;
     width: 50%;
     flex-direction: column;
+    gap: $gap-m;
 }
 
 .btn__to-the-right {
