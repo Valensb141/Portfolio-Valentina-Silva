@@ -1,4 +1,5 @@
 @import '../../globalStyle/variables';
+@import '../../globalStyle/mixins';
 
 .project__main {
     display: flex;
@@ -11,6 +12,15 @@
     display: flex;
     gap: $gap-xl;
     flex-grow: 1;
+    
+    @include bp($bp-laptop){
+        flex-direction: column;
+
+    }
+
+    @include bp($bp-tablet){
+        flex-direction: column;
+    }
 }
 
 .full-page-image-container {

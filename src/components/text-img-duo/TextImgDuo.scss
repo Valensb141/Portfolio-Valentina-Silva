@@ -1,4 +1,5 @@
 @import '../../globalStyle/variables';
+@import '../../globalStyle/mixins';
 
 .text-img-duo {
     display: flex;
@@ -8,11 +9,18 @@
     justify-content: space-between;
     height: 500px;
     //margin-bottom: $margin-xxxl;
+
+    @include bp($bp-tablet){
+        flex-direction: column;
+        height: fit-content;
+    }
 }
 
 .img {
     width: 380px;
     height: 380px;
+
+ 
 
 
     &__round {
@@ -32,6 +40,11 @@
 .img__halfpage {
     width: 50%;
     height: 100%;
+
+    @include bp($bp-tablet){
+        width: 100%;
+        height: 100%;
+    }
 
 
     &__round {
@@ -67,4 +80,10 @@
     justify-content: space-between;
     width: 50%;
     height: 100%;
+
+    @include bp($bp-tablet){
+        width: 100%;
+        height: 100%;
+        gap: $gap-xl;
+    }
 }

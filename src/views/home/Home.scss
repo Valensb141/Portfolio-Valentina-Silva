@@ -39,24 +39,47 @@
     object-fit: cover;
     transform: rotate(-15deg);
 
+    @media all and (max-width: 1200px) {
+        width: 360px;
+        height: 400px;
+    }
+
+    @include bp($bp-laptop){
+        width: 260px;
+        height: 300px;
+        
+    }
+
     @include bp($bp-tablet){
-        width: 230px;
-        height: 280px;
+        width: 260px;
+        height: 300px;
         
     }
 
     @include bp($bp-mobile){
-        width: 230px;
+        width: 240px;
         height: 280px;
+        
     }
 }
 
 
 .img__two {
-    width: 350px;
-    height: 300px;
+    width: 450px;
+    height: 400px;
     object-fit: cover;
     transform: rotate(5deg);
+
+    @media all and (max-width: 1200px) {
+        width: 360px;
+        height: 400px;
+    }
+
+    @include bp($bp-laptop){
+        width: 260px;
+        height: 300px;
+        
+    }
 
     @include bp($bp-tablet){
         width: 260px;

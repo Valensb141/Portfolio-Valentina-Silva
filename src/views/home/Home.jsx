@@ -43,10 +43,10 @@ export default function Home() {
             title="Mis principios" 
             tagtext="En lo que creo" 
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non maximus magna. Aenean consectetur felis id risus blandit, id sollicitudin dolor tristique. Nunc nec volutpat enim, in tincidunt metus. Donec vulputate ligula eu dui egestas ornare. Praesent eu sodales mi."
-            principle="Principiokjsfhkas"
-            principle2="Principixzcfsdfdfo1"
-            principle3="Principsdfdsfdfdfdfdio1"
-            principle4="Principdfdfdfdfdfdfdfdfsfio1"
+            principle="Princ ipio kjsf hkas"
+            principle2="Princ ipix zcfsdf dfo1"
+            principle3="Princ ipsdf dsfdfdfdfdi o1"
+            principle4="Princi pdfdfd fdfdfdfdf dfsfio1"
             showPrinciples="principles__container"
             contactInfo='contact__dont-show'
             to={`/About`}

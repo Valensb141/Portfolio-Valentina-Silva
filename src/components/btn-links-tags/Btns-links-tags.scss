@@ -87,12 +87,11 @@
         background-color:$color-lighterBeige;
         color: $color-darkGreen;  
         font-size: $font-size-small;
-        flex-direction: row-reverse;
-        padding: $padding-m $padding-l $padding-m $padding-l;
+        //flex-direction: row-reverse;
+        padding: $padding-m $padding-m $padding-m $padding-m;
         
         @include bp($bp-mobile){
-            min-width: 200px;
-            max-width: 200px;
+            
         }  
 
     }
