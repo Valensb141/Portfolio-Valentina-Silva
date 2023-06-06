@@ -19,7 +19,10 @@ const TextBlock = (props) => {
                     </p>
 
                     <div className='project__icons'>
-                        <IconCircle icon={<IconArrow/>} />
+                        <IconCircle icon={props.icon} showIcon={props.showIcon}/>
+                        <IconCircle icon={props.icon1} showIcon={props.showIcon}/>
+                        <IconCircle icon={props.icon2} showIcon={props.showIcon}/>
+                        
                         
                     </div>
 

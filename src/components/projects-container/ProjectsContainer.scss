@@ -1,7 +1,9 @@
 @import '../../globalStyle/variables';
+@import '../../globalStyle/mixins';
 
 .projects {
     display: flex;
     flex-direction: column;
     gap: 0;
+    width: 100%;
 }

@@ -3,6 +3,10 @@
 .icon-circle {
     border-radius: $border-radius-s;
     max-width: fit-content;
-    background-color: $color-lightGreen;
-    padding: 4.5px 6px;
+    background-color: $color-lightMustard;
+    padding: 7.5px 10.5px;
+}
+
+.icon__dont-show {
+    display: none;
 }

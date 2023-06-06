@@ -1,4 +1,5 @@
 @import '../../globalStyle/variables';
+@import '../../globalStyle/mixins';
 
 .btn {
     padding: $padding-xxs $padding-xs $padding-xxs $padding-xs;
@@ -13,6 +14,7 @@
     text-decoration: none;
     cursor: pointer;
     height: fit-content;
+    text-align: center;
     
 
 
@@ -88,6 +90,11 @@
         flex-direction: row-reverse;
         padding: $padding-m $padding-l $padding-m $padding-l;
         
+        @include bp($bp-mobile){
+            min-width: 200px;
+            max-width: 200px;
+        }  
+
     }
 
 

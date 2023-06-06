@@ -1,3 +1,5 @@
+@import './mixins';
+
 h1, h2, h3, h4, h5 {
     margin: 0;
     padding: 0;
@@ -7,17 +9,32 @@ h1, h2, h3, h4, h5 {
 h1 {
     font-family: $font-family-secondary;
     font-size: $font-size-extra-large;
+
+    @include bp($bp-mobile){
+        font-size: $font-size-large;
+        
+    }
 }
 
 h2 {
     font-family: $font-family-secondary;
     font-size: $font-size-extra-large;
+
+    @include bp($bp-mobile){
+        font-size: $font-size-large;
+        
+    }
 }
 
 h3 {
     font-family: $font-family-primary;
     font-size: $font-size-large;
     font-weight: $font-weight-medium;
+
+    @include bp($bp-mobile){
+        font-size: $font-size-normal;
+        
+    }
     
 }
 
@@ -26,10 +43,18 @@ h4 {
     font-size: $font-size-x-medium;
     font-weight: $font-weight-medium;
     
+    @include bp($bp-mobile){
+        font-size: $font-size-normal;
+        
+    }
 }
 
 p {
     font-family: $font-family-primary;
     font-size: $font-size-normal;  
     margin: 0;
+
+    @include bp($bp-mobile){
+        font-size: $font-size-small;  
+    }
 }

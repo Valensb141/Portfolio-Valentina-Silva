@@ -1,4 +1,6 @@
-@import '../../globalStyle/variables';
+@import '../../globalStyle/GlobalStyle.scss';
+@import '../../globalStyle/mixins';
+
 
 .projects {
     display: flex;
@@ -19,6 +21,16 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: -120px;
+    justify-content: center;
+
+    @include bp($bp-mobile){
+        gap: $gap-xl;
+        flex-direction: column;
+        margin-left: $margin-s;
+        margin-right: $margin-s;
+        align-items: center;
+        
+    }
 }
 
 .img__one {
@@ -26,6 +38,17 @@
     height: 500px;
     object-fit: cover;
     transform: rotate(-15deg);
+
+    @include bp($bp-tablet){
+        width: 230px;
+        height: 280px;
+        
+    }
+
+    @include bp($bp-mobile){
+        width: 230px;
+        height: 280px;
+    }
 }
 
 
@@ -34,4 +57,18 @@
     height: 300px;
     object-fit: cover;
     transform: rotate(5deg);
+
+    @include bp($bp-tablet){
+        width: 260px;
+        height: 300px;
+        
+    }
+
+    @include bp($bp-mobile){
+        width: 240px;
+        height: 280px;
+        
+    }
+
+
 }

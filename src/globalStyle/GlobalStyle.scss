@@ -4,6 +4,7 @@
 @import './typography';
 @import './lists';
 @import './grid';
+@import './mixins';
 
 
 body {
@@ -35,5 +36,17 @@ body {
     // padding: $padding-l;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
+
+    @include bp($bp-tablet){
+      margin-left: $margin-m;
+      margin-right: $margin-m;
+  }
+
+    @include bp($bp-mobile){
+      margin-left: $margin-s;
+      margin-right: $margin-s;
+  }
+
 }
   

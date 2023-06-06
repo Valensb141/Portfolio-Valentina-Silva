@@ -4,7 +4,7 @@ import './IconCircle.scss'
 const IconCircle = (props) => {
     return (
        
-        <div className='icon-circle'>
+        <div className={props.showIcon}>
             {props.icon}
         </div>
         

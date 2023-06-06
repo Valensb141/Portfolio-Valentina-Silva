@@ -230,7 +230,7 @@
 .hard-skills {
     display:flex;
     width: 100%;
-    gap: $gap-l;
+    gap: $gap-xl;
 
     
 }
@@ -239,6 +239,12 @@
     display: flex;
     gap: $gap-s;
     width: calc(100%/3);
+}
+
+.hard-skills-icons__container {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-m;
 }
 
 .hard-skills__container {

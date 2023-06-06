@@ -1,0 +1,7 @@
+
+
+@mixin bp($max-width: $bp-tablet) {
+    @media all and (max-width: $max-width) {
+        @content;
+    }
+}

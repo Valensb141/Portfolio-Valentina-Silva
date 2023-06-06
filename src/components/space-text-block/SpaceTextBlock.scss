@@ -1,4 +1,6 @@
 @import '../../globalStyle/variables';
+@import '../../globalStyle/mixins';
+
 
 .space__text__block {
     display: flex;
@@ -12,9 +14,18 @@
     width: 50%;
     flex-direction: column;
     gap: $gap-m;
+
+    @include bp($bp-mobile){
+        width: 100%;
+        
+    }
 }
 
 .btn__to-the-right {
     display: flex;
     justify-content: flex-end;
+
+    @include bp($bp-mobile){
+        justify-content: flex-start;
+    }
 }

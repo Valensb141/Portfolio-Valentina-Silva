@@ -1,19 +1,38 @@
 @import '../../globalStyle/variables';
+@import '../../globalStyle/mixins';
 
 
 .rouded-container {
     background-color: $color-lighterMustard;
-    border-radius: $border-radius-xxxl;
-    max-width: 1200px;
+    border-radius: $border-radius-s;
+    //max-width: 1200px;
     min-width: 840px;
     height: fit-content;
     padding: $padding-xxxl $padding-xl $padding-xl $padding-xxl;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+
+    @include bp($bp-tablet){
+        width: 650px;
+        min-width: 150px;
+        padding: $padding-xxxl $padding-m $padding-xl $padding-m;
+        // margin-left: $margin-s;
+        // margin-right: $margin-s;
+    }
+
+    @include bp($bp-mobile){
+        max-width: 300px;
+        min-width: 150px;
+        padding: $padding-xl $padding-s $padding-xl $padding-s;
+        // margin-left: $margin-s;
+        // margin-right: $margin-s;
+    }
+
+    
     
     &__top {
         border-radius: $border-radius-xxxl $border-radius-xxxl 0 0 ;
-
     }
 
     &__middle {
@@ -21,6 +40,18 @@
         padding: $padding-xl $padding-xl $padding-l $padding-xl;
         //margin-top: $margin-xxl;
         background-color: $color-mediumBeige;
+
+        @include bp($bp-tablet){
+            padding: 0;
+            margin-top: $margin-xl;
+            // margin-right: $margin-s;
+        }
+
+        @include bp($bp-mobile){
+        padding: 0;
+        margin-top: $margin-xl;
+        // margin-right: $margin-s;
+    }
     }
 
 
@@ -28,13 +59,22 @@
         border-radius:  0 0 $border-radius-xxxl $border-radius-xxxl;
         padding: $padding-xl $padding-xl $padding-xxxl $padding-xxl;
         margin-top: $margin-xxl;
+
+        @include bp($bp-tablet){
+            padding: $padding-l 0 $padding-xxxl $padding-l;
+        }
+
+        @include bp($bp-mobile){
+            padding: $padding-l $padding-s $padding-xxl $padding-s;
+        }
     }
 
 
+    
 }
 
 .content {
-    max-width: 800px;
+    width: 100%;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -45,6 +85,13 @@
     display: flex;
     gap: $gap-l;
     justify-content: center;
+
+    @include bp($bp-mobile){
+        gap: $gap-s;
+        flex-direction: column;
+        max-width: 100px;
+    }
+
 }
 
 
@@ -53,6 +100,11 @@
     flex-direction: column;
     gap: $gap-l;
     width: 380px;
+
+    @include bp($bp-mobile){
+       
+       gap: $gap-s;
+    }    
 }
 
 .principles__container__dont-show {
@@ -73,6 +125,11 @@
 .social__btns {
     display: flex;
     gap: $gap-s;
+    flex-wrap: wrap;
+
+    @include bp($bp-mobile){
+       flex-direction: column;
+    }
 }
 
 .btn__show {
@@ -91,5 +148,9 @@
 .mail {
     font-family: $font-family-secondary;
     font-size: $font-size-large;
-    
+
+    @include bp($bp-mobile){
+        font-family: $font-family-secondary;
+        font-size: $font-size-normal;
+     }
 }
