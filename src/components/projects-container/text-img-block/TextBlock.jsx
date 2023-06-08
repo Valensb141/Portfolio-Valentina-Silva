@@ -29,7 +29,7 @@ const TextBlock = (props) => {
                 </div>
 
                 <div className="project__btn">
-                    <BtnLinkOrTag type='btn btn__portfolio' text="Ver proyecto" icon={<IconArrowGreen />} to={props.to}/>
+                    <BtnLinkOrTag type='btn btn__portfolio' text="I want to know more" icon={<IconArrowGreen />} to={props.to}/>
                 </div>
             </div>
         

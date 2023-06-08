@@ -16,7 +16,7 @@ const ProjectSmallDescription = (props) => {
                 <p className="subdescription__category subdescription__category__content">{props.categoryContent2}</p>
             </div>
 
-            <BtnLinkOrTag type='btn btn__primary' text={props.btnText} to={props.to} icon={<IconArrow />}/>
+            <BtnLinkOrTag target="_blanc" type='btn btn__primary' text={props.btnText} to={props.to} icon={<IconArrow />}/>
         </div>
         </>
     )

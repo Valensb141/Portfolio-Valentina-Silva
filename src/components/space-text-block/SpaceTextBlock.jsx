@@ -9,12 +9,13 @@ const SpaceTextBlock = (props) => {
         <>
             <div className='space__text__block'>
                 <div className='text__block'>
-                    <article>
+                    <article className='p__gap'>
                         <p> {props.text} </p>
+                        <p>{props.text2} </p>
                     </article>
 
                     <div className={props.btn}>
-                        <BtnLinkOrTag type='btn btn__portfolio' text="Saber más sobre mi" to={props.to} icon={<IconArrowGreen />}/>
+                        <BtnLinkOrTag type='btn btn__portfolio' text="¿Wanna know more?" to={props.to} icon={<IconArrowGreen />}/>
                     </div>
                 </div>
             </div>

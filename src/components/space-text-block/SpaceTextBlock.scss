@@ -29,3 +29,9 @@
         justify-content: flex-start;
     }
 }
+
+.p__gap {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-m;
+}

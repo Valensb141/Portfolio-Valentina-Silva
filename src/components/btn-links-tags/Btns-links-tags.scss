@@ -84,11 +84,15 @@
     }
 
     &__principles {
+        display: flex;
         background-color:$color-lighterBeige;
         color: $color-darkGreen;  
         font-size: $font-size-small;
         //flex-direction: row-reverse;
-        padding: $padding-m $padding-m $padding-m $padding-m;
+        padding: $padding-m $padding-l $padding-m $padding-l;
+        min-width: 70%;
+        text-align: center;
+        
         
         @include bp($bp-mobile){
             

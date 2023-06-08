@@ -12,7 +12,7 @@ const RoundedContainer = (props) => {
                 <TitleTag title={props.title} tagtext={props.tagtext}/>
 
                 <div className={props.textAndBtn}>
-                    <SpaceTextBlock  text={props.text} btn={props.btn} to={props.to}/>
+                    <SpaceTextBlock  text={props.text} text2={props.text2} btn={props.btn} to={props.to}/>
                 </div>
                 
             <div className={props.showPrinciples}>
@@ -31,9 +31,10 @@ const RoundedContainer = (props) => {
                 <p className='mail'>Valentinasilva141@gmail.com</p>
 
                 <div className='social__btns'>
-                    <BtnLinkOrTag type='btn btn__primary' text="Linkedin" to='https://www.linkedin.com/in/valentina-silva-75b2a1212/' icon={<IconArrow />}/>
-                    <BtnLinkOrTag type='btn btn__primary' text="GitHub" to='https://github.com/Valensb141' icon={<IconArrow />}/>
-                    <BtnLinkOrTag type='btn btn__primary' text="Instagram" to='https://www.instagram.com/designavenue.vs/' icon={<IconArrow />}/>
+                    <BtnLinkOrTag target="_blanc" type='btn btn__primary' text="Linkedin" to='https://www.linkedin.com/in/valentina-silva-75b2a1212/' icon={<IconArrow />}/>
+                    <BtnLinkOrTag target="_blanc" type='btn btn__primary' text="GitHub" to='https://github.com/Valensb141' icon={<IconArrow />}/>
+                    <BtnLinkOrTag target="_blanc" type='btn btn__primary' text="Instagram" to='https://www.instagram.com/designavenue.vs/' icon={<IconArrow />}/>
+                    <BtnLinkOrTag target="_blanc" type='btn btn__primary' text="Behance" to='https://www.instagram.com/designavenue.vs/' icon={<IconArrow />}/>
                 </div>
 
             </div> 

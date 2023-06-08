@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 const BtnLinkOrTag = (props) => {
      return (
          
-           <Link className={props.type} to={props.to} target="_blank">
+           <Link className={props.type} to={props.to} target={props.target}>
         
               {props.text}{props.icon}
         

@@ -19,9 +19,11 @@ export default function Home() {
         
         <RoundedContainer 
             borderRadius='rouded-container rouded-container__top'
-            title="Hola! Soy Valentina" 
-            tagtext="O Tini o Valen" 
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non maximus magna. Aenean consectetur felis id risus blandit, id sollicitudin dolor tristique. Nunc nec volutpat enim, in tincidunt metus. Donec vulputate ligula eu dui egestas ornare. Praesent eu sodales mi."
+            title="Hola, hello! I'm Valentina" 
+            tagtext="Or Tini, or Valen" 
+            text="
+            I am a Valencia-based Industrial Design Engineer graduate with three years of experience in the graphic design industry. Additionally, I hold a postgraduate degree in Frontend Development, UX/UI Design, and Digital Marketing."
+            text2="My life has afforded me the opportunity to reside in various countries across two continents, providing me with a multicultural background and a unique perspective on life. Furthermore, I have a deep appreciation for coffee and really enjoy playing paddle and basketball."
             showPrinciples="principles__container__dont-show"
             contactInfo='contact__dont-show'
             btn='btn__show'
@@ -29,30 +31,30 @@ export default function Home() {
         />
 
         <div className="img__duo">
-            <img className='img__one' src={me} alt="" />
-            <img className='img__two' src={coffeeMe} alt="" />
+            <img className='img__one' src={me} alt="Valentina dressed in black clothing, smiling with a colourfull background" />
+            <img className='img__two' src={coffeeMe} alt="Valentina smiling with a yellow coffee cup in her hands" />
         </div>
 
         <Link name="producto"></Link>
-        <h2 className='seccion__title'>Diseño y Desarrollo de Producto</h2>
+        <h2 className='seccion__title'>UX/UI Design - Frontend Development</h2>
 
         <ProjectsContainer />
 
         <RoundedContainer 
             borderRadius='rouded-container rouded-container__middle'
-            title="Mis principios" 
-            tagtext="En lo que creo" 
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non maximus magna. Aenean consectetur felis id risus blandit, id sollicitudin dolor tristique. Nunc nec volutpat enim, in tincidunt metus. Donec vulputate ligula eu dui egestas ornare. Praesent eu sodales mi."
-            principle="Princ ipio kjsf hkas"
-            principle2="Princ ipix zcfsdf dfo1"
-            principle3="Princ ipsdf dsfdfdfdfdi o1"
-            principle4="Princi pdfdfd fdfdfdfdf dfsfio1"
+            title="Key Principles" 
+            tagtext="I follow and believe in" 
+            text="I firmly believe that with dedication and perseverance, you can accomplish whatever you set your mind to. Additionally, I value the importance of fostering a positive work environment and cultivating strong relationships within a team, as it leads to better outcomes and results."
+            principle="People matter most."
+            principle2="Flexibility and adaptability are superpowers."
+            principle3="Give it your all in everything you do."
+            principle4="Communication is key"
             showPrinciples="principles__container"
             contactInfo='contact__dont-show'
             to={`/About`}
         />
 
-        <h2 className='seccion__title'>Diseño Gráfico</h2>
+        <h2 className='seccion__title'>Graphic Design</h2>
 
         <ProjectsContainer />
 

@@ -23,8 +23,8 @@ export default function About() {
 
             <div className='name__location'>
                 <h3 className='name'>Valentina Silva</h3>
-                <p>Valencia, España</p>
-                {/* <BtnLinkOrTag  type='btn btn__tag' text="Valencia, España"/> */}
+                <p>Valencia, Spain</p>
+                {/* <BtnLinkOrTag  type='btn btn__tag' text="Valencia, Spain"/> */}
             </div>
 
             
@@ -62,11 +62,11 @@ export default function About() {
                 </div>
                 <div className="hello-description">
                     <TitleTextTag 
-                        title="¡Hola, holaa!"
-                        bigTitleText="Soy Valentina"
-                        description1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia vulputate felis, ut mattis ligula semper vestibulum. Maecenas tincidunt et metus at tempus. Duis eu placerat  maximus nisi in viverra viverra."
-                        description2="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia vulputate felis, ut mattis ligula semper vestibulum. Maecenas tincidunt et metus at tempus. Duis eu placerat  maximus nisi in viverra viverra."
-                        tagText="Valencia, España"
+                        title="¡Hey, holaa!"
+                        bigTitleText="I'm Valentina"
+                        description1="Apart from my studies and professional experience, I am a genuinely joyful person. I embrace optimism and view setbacks and challenges as opportunities for personal growth and learning."
+                        description2="Interesting fact: I have lived in three different countries—Venezuela, Panama, and Spain—each offering unique realities and cultures. Additionally, I had the privilege of spending a few months in vibrant cities like New York City, Boston, and Milan. Life has taken my family and me to various places, and I make sure to make the most of these experiences."
+                        tagText="Valencia, Spain"
                         //fecha="Oct 22 – Jun 23"
                         type='header-block'
                         //showTag='tag__dont-show'
@@ -78,18 +78,18 @@ export default function About() {
             </div>
 
             <div className="languajes__trio">
-                <div className="languajes__spanish"><div className='padding'><strong className='secondary__typography__large'>Castellano: </strong><br></br>nativo</div></div>
-                <div className="languajes__english"><div className='padding'><strong className='secondary__typography__large'>Inglés: </strong><br></br>fluido</div></div>
-                <div className="languajes__italian"><div className='padding'><strong className='secondary__typography__large'>Italiano: </strong><br></br>básico</div></div>                                             
+                <div className="languajes__spanish"><div className='padding'><strong className='secondary__typography__large'>Spanish: </strong><br></br>native</div></div>
+                <div className="languajes__english"><div className='padding'><strong className='secondary__typography__large'>English: </strong><br></br>fluid</div></div>
+                <div className="languajes__italian"><div className='padding'><strong className='secondary__typography__large'>Italian: </strong><br></br>basic knowledge</div></div>                                             
             </div>
 
 
             <div className='studies'>
-                <h3>Formación</h3>
+                <h3>My studies</h3>
                 <TitleTextTag 
                 title="ESCUELA SUPERIOR DE ARTE Y TECNOLOGÍA"
-                description1="Postgrado de Diseño UX/UI, Maquetación Web y Marketing Digital."
-                tagText="Valencia, España"
+                description1="Postgraduate program in UX/UI Design, Frontend Development and Digital Marketing."
+                tagText="Valencia, Spain"
                 fecha="Oct 22 – Jun 23"
                 type='studies-block'
                 // showTag='tag__dont-show'
@@ -100,8 +100,8 @@ export default function About() {
 
                 <TitleTextTag 
                 title="POLITECNICO DI MILANO (ERASMUS)"
-                description1="Ingeniería en Diseño Industrial y Desarrollo de Producto"
-                tagText="Milán, Italia"
+                description1="Bachelor's degree in Industrial Design and Product Development Engineering."
+                tagText="Milan, Italy"
                 fecha="Feb 22 - Jun 22"
                 type='studies-block'
                 // showTag='tag__dont-show'
@@ -112,8 +112,8 @@ export default function About() {
 
                 <TitleTextTag 
                 title="UNIVERSIDAD POLITÉCNICA DE VALENCIA (UPV)"
-                description1="Ingeniería en Diseño Industrial y Desarrollo de Producto"
-                tagText="Alcoy, España"
+                description1="Bachelor's degree in Industrial Design and Product Development Engineering."
+                tagText="Alcoy, Spain"
                 fecha="Sept 18 – Jun 22"
                 type='studies-block'
                 // showTag='tag__dont-show'
@@ -125,15 +125,15 @@ export default function About() {
 
             <div className="experience">
 
-                <h3>Experiencia</h3>
+                <h3>Experience</h3>
 
                 <div className="experience__subcontainer">
                     <TitleTextTag 
-                        title="Freelance de Diseño Gráfico"
-                        description1="Servicio de Diseño Gráfico"
-                        description2="Creación de branding para nuevas empresas, diseño de catálogos, menús, etiquetas y flyers, diseño para redes sociales."
+                        title="Graphic Design Freelancer"
+                        description1="Graphic Design service"
+                        description2="Brand creation for new businesses, catalog design, menus, labels, flyers, design for social media."
                         tagText="Online"
-                        fecha="Sep 2020 – Actualidad "
+                        fecha="Sep 2020 – Now"
                         type='experience-block'
                         // showTag='tag__dont-show'
                         //showDescription2='p__dont-show'
@@ -143,10 +143,10 @@ export default function About() {
 
                     <TitleTextTag 
                         title="Maxi Products Group, S.L · Prácticas"
-                        description1="Técnico de Producto"
-                        description2="Desarrollo de proyecto de análisis y fichas técnicas de producto con el objetivo de estructurar las características técnicas y logísticas de cada producto de catálogo.
-                        Control de calidad de los productos del catálogo haciendo uso de instrumentos de medición mecánica y Microsoft Excel."
-                        tagText="Ibi, España"
+                        description1="
+                        Product Technician"
+                        description2="Development of a project for product analysis and technical data sheets with the aim of structuring the technical and logistical characteristics of each product in the catalog. Quality control of catalog products using mechanical measurement instruments and Microsoft Excel."
+                        tagText="Ibi, Spain"
                         fecha="Nov 2021 – Dic 2021"
                         type='experience-block'
                         // showTag='tag__dont-show'
@@ -213,10 +213,10 @@ export default function About() {
                 <div className="column__revese">
 
                 <div className="column__revese__sub">
-                        <div className="circle-1">Soft skill 1</div>
+                        <div className="circle-1"><strong>Adaptability & flexibility</strong> are definitely one of my strongest soft skills!</div>
                     <div className="circle-duo-1">
-                        <div className="circle-1">Soft skill 1</div>
-                        <div className="circle-1">Soft skill 1</div>
+                        <div className="circle-1">I am really good at  <strong>teamwork</strong></div>
+                        <div className="circle-1">I really like <strong>learning</strong> by doing</div>
                     </div>
                 </div>
 
@@ -224,11 +224,14 @@ export default function About() {
                 </div>
                 
                 <div className="circle-duo-1">
-                    <div className="circle-1">Soft skill 1</div>
-                    <div className="circle-1">Soft skill 1</div>
+                    <div className="circle-1">
+I have a strong passion for <strong>learning</strong> and strive to achieve excellence in everything I do.</div>
+                    <div className="circle-1">
+I am skilled at <br /> <strong
+>communication.</strong></div>
                 </div>
 
-                    <div className="circle-1">Soft skill 1</div>
+                    <div className="circle-1">I have <strong>experience working in remote settings.</strong> </div>
 
             </div>
             
