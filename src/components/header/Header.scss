@@ -12,6 +12,62 @@
     text-align: center;
 }
 
+.inner__headings {
+    border: 1.5px solid $color-mediumGreen;
+    padding: 0 $padding-s;
+    height: 50px;
+    line-height: 50px;
+    font-size: $font-size-normal;
+    text-transform: uppercase;
+    overflow: hidden;
+    border-radius: $border-radius-m;
+    font-weight: $font-weight-bold;
+    
+}
+
+.inner__headings span{
+    position: relative;
+    color: $color-mediumGreen;
+    animation: animation 10s ease infinite;
+
+}
+
+@keyframes animation {
+    0%,
+
+    100% {
+        top: 0;
+    }
+
+    16% {
+        top: 0;
+    }
+
+    32% {
+        top: -50px;
+    }
+
+    48% {
+        top: -50px;
+    }
+
+    64% {
+        top: -100px;
+    }
+
+
+    80% {
+        top: -100px;
+    }
+
+    96% {
+        top: -150px;
+    }
+
+    }
+    
+
+
 .name {
     font-size: $font-size-extra-large;
 }

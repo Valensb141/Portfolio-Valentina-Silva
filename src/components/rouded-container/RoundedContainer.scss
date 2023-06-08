@@ -12,6 +12,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    max-width: 1560px;
 
     @include bp($bp-tablet){
         //width: 100%;
@@ -24,7 +25,7 @@
     @include bp($bp-mobile){
         //max-width: 100%;
         //min-width: 150px;
-        padding: $padding-l 0 $padding-xl 0;
+        padding: $padding-xl 0 $padding-xl 0;
         // margin-left: $margin-s;
         // margin-right: $margin-s;
     }

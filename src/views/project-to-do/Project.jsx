@@ -1,4 +1,4 @@
-import './Project.scss'
+import '../project/Project.scss'
 //import ProjectSmallDescription from '../../components/project-small-description/ProjectSmallDescription'
 import TextImgDuo from '../../components/text-img-duo/TextImgDuo'
 import me from '../../images/me.png'

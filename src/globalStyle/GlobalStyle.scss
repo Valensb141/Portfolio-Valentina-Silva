@@ -34,8 +34,8 @@ body {
     flex-direction: column;
     gap: $gap-l;
     // padding: $padding-l;
-    margin-left: $margin-xl;
-    margin-right: $margin-xl;
+    margin-left: $margin-xxl;
+    margin-right: $margin-xxl;
     align-items: center;
 
     @include bp($bp-tablet){

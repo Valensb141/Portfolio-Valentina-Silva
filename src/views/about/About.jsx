@@ -58,7 +58,7 @@ export default function About() {
         <div className="right__div">
             <div className="img-hello-decription">
                 <div className="img">
-                    <img className="img__round" src={me} alt="" />
+                    <img className="img__round" src={me} alt="Imagen de Valentina con fondo degradado de colores" />
                 </div>
                 <div className="hello-description">
                     <TitleTextTag 
@@ -78,9 +78,9 @@ export default function About() {
             </div>
 
             <div className="languajes__trio">
-                <div className="languajes__spanish"><strong className='secondary__typography__large'>Castellano: </strong><br></br>nativo</div>
-                <div className="languajes__english"><strong className='secondary__typography__large'>Inglés: </strong><br></br>fluido</div>
-                <div className="languajes__italian"><strong className='secondary__typography__large'>Italiano: </strong><br></br>básico</div>
+                <div className="languajes__spanish"><div className='padding'><strong className='secondary__typography__large'>Castellano: </strong><br></br>nativo</div></div>
+                <div className="languajes__english"><div className='padding'><strong className='secondary__typography__large'>Inglés: </strong><br></br>fluido</div></div>
+                <div className="languajes__italian"><div className='padding'><strong className='secondary__typography__large'>Italiano: </strong><br></br>básico</div></div>                                             
             </div>
 
 
@@ -157,15 +157,72 @@ export default function About() {
                 </div>
             </div>
 
+            <div className="hard-skills__container">
+
+<h3>Hard Skills</h3> 
+
+<div className="hard-skills">
+    <div className="hard-skills-icons__container">
+        <div className="hard-skills-icons">
+            <IconCircle icon={<Html/>} showIcon='icon-circle'/>
+            <IconCircle icon={<Css/>} showIcon='icon-circle'/>
+            <IconCircle icon={<Scss/>} showIcon='icon-circle' />
+            <IconCircle icon={<Js/>} showIcon='icon-circle'/>
+        </div>
+
+        <div className="hard-skills-icons">
+            <IconCircle icon={<React/>} showIcon='icon-circle'/>
+            <IconCircle icon={<Wp/>} showIcon='icon-circle'/>
+        </div>
+    </div>
+ 
+
+    <div className="hard-skills-icons__container">
+        <div className="hard-skills-icons">
+            <IconCircle icon={<Figma/>} showIcon='icon-circle'/>
+            <IconCircle icon={<Illustrator/>} showIcon='icon-circle'/>
+            <IconCircle icon={<Photoshop/>} showIcon='icon-circle'/>
+            <IconCircle icon={<Indesign/>} showIcon='icon-circle' />
+            
+        </div>
+
+        <div className="hard-skills-icons">
+            <IconCircle icon={<React/>} showIcon='icon__dont-show'/>
+            <IconCircle icon={<Wp/>} showIcon='icon__dont-show'/>
+        </div>
+    </div>
+
+    {/* <div className="hard-skills-icons__container">
+        <div className="hard-skills-icons">
+            <IconCircle icon={<Html/>} showIcon='icon-circle'/>
+            <IconCircle icon={<Css/>} showIcon='icon-circle'/>
+            <IconCircle icon={<Scss/>} showIcon='icon-circle' />
+            <IconCircle icon={<Js/>} showIcon='icon-circle'/>
+        </div>
+
+        <div className="hard-skills-icons">
+            <IconCircle icon={<React/>} showIcon='icon-circle'/>
+            <IconCircle icon={<Wp/>} showIcon='icon-circle'/>
+        </div>
+    </div> */}
+    
+</div>
+</div>
+
             <div className="soft-skills">
-                    <div className="circle-1">Soft skill 1</div>
-                <div className="circle-duo-1">
-                    <div className="circle-1">Soft skill 1</div>
-                    <div className="circle-1">Soft skill 1</div>
+                <div className="column__revese">
+
+                <div className="column__revese__sub">
+                        <div className="circle-1">Soft skill 1</div>
+                    <div className="circle-duo-1">
+                        <div className="circle-1">Soft skill 1</div>
+                        <div className="circle-1">Soft skill 1</div>
+                    </div>
                 </div>
 
                 <div className="circle-main">Soft<br></br>Skills</div>
-
+                </div>
+                
                 <div className="circle-duo-1">
                     <div className="circle-1">Soft skill 1</div>
                     <div className="circle-1">Soft skill 1</div>
@@ -176,57 +233,7 @@ export default function About() {
             </div>
             
 
-            <div className="hard-skills__container">
-
-                <h3>Hard Skills</h3> 
-
-                <div className="hard-skills">
-                    <div className="hard-skills-icons__container">
-                        <div className="hard-skills-icons">
-                            <IconCircle icon={<Html/>} showIcon='icon-circle'/>
-                            <IconCircle icon={<Css/>} showIcon='icon-circle'/>
-                            <IconCircle icon={<Scss/>} showIcon='icon-circle' />
-                            <IconCircle icon={<Js/>} showIcon='icon-circle'/>
-                        </div>
-
-                        <div className="hard-skills-icons">
-                            <IconCircle icon={<React/>} showIcon='icon-circle'/>
-                            <IconCircle icon={<Wp/>} showIcon='icon-circle'/>
-                        </div>
-                    </div>
-                 
-
-                    <div className="hard-skills-icons__container">
-                        <div className="hard-skills-icons">
-                            <IconCircle icon={<Figma/>} showIcon='icon-circle'/>
-                            <IconCircle icon={<Illustrator/>} showIcon='icon-circle'/>
-                            <IconCircle icon={<Photoshop/>} showIcon='icon-circle'/>
-                            <IconCircle icon={<Indesign/>} showIcon='icon-circle' />
-                            
-                        </div>
-
-                        <div className="hard-skills-icons">
-                            <IconCircle icon={<React/>} showIcon='icon__dont-show'/>
-                            <IconCircle icon={<Wp/>} showIcon='icon__dont-show'/>
-                        </div>
-                    </div>
-
-                    {/* <div className="hard-skills-icons__container">
-                        <div className="hard-skills-icons">
-                            <IconCircle icon={<Html/>} showIcon='icon-circle'/>
-                            <IconCircle icon={<Css/>} showIcon='icon-circle'/>
-                            <IconCircle icon={<Scss/>} showIcon='icon-circle' />
-                            <IconCircle icon={<Js/>} showIcon='icon-circle'/>
-                        </div>
-
-                        <div className="hard-skills-icons">
-                            <IconCircle icon={<React/>} showIcon='icon-circle'/>
-                            <IconCircle icon={<Wp/>} showIcon='icon-circle'/>
-                        </div>
-                    </div> */}
-                    
-                </div>
-            </div>
+            
 
         </div>
     </div>
