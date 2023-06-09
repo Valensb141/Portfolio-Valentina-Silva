@@ -1,6 +1,6 @@
 import './ProjectsContainer.scss'
 import TextImgBlock from './text-img-block/TextImgBlock';
-import IconArrow from '../icons/IconArrow';
+//import IconArrow from '../icons/IconArrow';
 //import me from '../../images/me.png'
 import Js from '../icons/JavaScrips';
 import Html from '../icons/Html';

@@ -16,7 +16,7 @@ export default function Home() {
         tagtext="Diseñadora y desarrolladora de producto"
         />
 
-        
+
         <RoundedContainer 
             borderRadius='rouded-container rouded-container__top'
             title="Hola, hello! I'm Valentina" 
@@ -35,8 +35,8 @@ export default function Home() {
             <img className='img__two' src={coffeeMe} alt="Valentina smiling with a yellow coffee cup in her hands" />
         </div>
 
-        <Link name="producto"></Link>
-        <h2 className='seccion__title'>UX/UI Design - Frontend Development</h2>
+        <a href="#section1"></a> 
+        <h2 className='seccion__title' id="section-1">UX/UI Design - Frontend Development</h2>
 
         <ProjectsContainer />
 
@@ -54,7 +54,7 @@ export default function Home() {
             to={`/About`}
         />
 
-        <h2 className='seccion__title'>Graphic Design</h2>
+        <h2 className='seccion__title' id='web-portfolio'>Graphic Design</h2>
 
         <ProjectsContainer />
 
