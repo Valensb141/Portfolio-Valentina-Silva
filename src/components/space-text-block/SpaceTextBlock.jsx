@@ -15,7 +15,7 @@ const SpaceTextBlock = (props) => {
                     </article>
 
                     <div className={props.btn}>
-                        <BtnLinkOrTag type='btn btn__portfolio' text="¿Wanna know more?" to={props.to} icon={<IconArrowGreen />}/>
+                        <BtnLinkOrTag type='btn btn__portfolio' text="Wanna know more?" to={props.to} icon={<IconArrowGreen />}/>
                     </div>
                 </div>
             </div>
