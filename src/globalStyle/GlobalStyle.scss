@@ -7,6 +7,10 @@
 @import './mixins';
 
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 
     place-items: center;

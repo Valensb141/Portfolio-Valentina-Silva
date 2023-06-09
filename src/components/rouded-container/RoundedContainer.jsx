@@ -7,7 +7,7 @@ import IconArrow from '../icons/IconArrow';
 
 const RoundedContainer = (props) => {
     return (
-        <div className={props.borderRadius}>
+        <div className={props.borderRadius} id={props.id}>
             <div className='content'>
                 <TitleTag title={props.title} tagtext={props.tagtext}/>
 
