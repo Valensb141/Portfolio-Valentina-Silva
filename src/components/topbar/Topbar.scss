@@ -5,6 +5,7 @@
     position: fixed;
     padding: $padding-xs;
     gap: $gap-xxs;
+    z-index: 1;
 
     &__close {
         display: none;

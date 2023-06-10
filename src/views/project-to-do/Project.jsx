@@ -2,6 +2,8 @@ import '../project/Project.scss'
 //import ProjectSmallDescription from '../../components/project-small-description/ProjectSmallDescription'
 import TextImgDuo from '../../components/text-img-duo/TextImgDuo'
 import me from '../../images/me.png'
+import toDoOne from '../../images/toDoOne.png'
+import toDoTwo from '../../images/toDoTwo.png'
 //import TitleTextTag from '../../components/title-text-tag/TitleTextTag'
 import InfoBlock from '../../components/info__block/InfoBlock'
 
@@ -13,7 +15,7 @@ export default function ProjectToDoApp() {
                 <TextImgDuo
                 imgContainer='img__halfpage'
                 imgType='img__square'
-                src={me}
+                src={toDoTwo}
                 alt='Imágen principal de proyecto'
                 title="To Do List"
                 text="Esat es la descripciondel proyetop que voy a mostar"
@@ -22,7 +24,7 @@ export default function ProjectToDoApp() {
                 category2="Year"
                 categoryContent2="2023"
                 btnText="GitHub"
-                to={'https://github.com/Valensb141'}
+                to={'https://github.com/Valensb141/to-do-app'}
                 />
             </section>
 
@@ -51,11 +53,11 @@ export default function ProjectToDoApp() {
                 <h1>GALLERY</h1>
                 
                 <div className="full-page-image">
-                    <img src="" alt="" />
+                    <img src={toDoOne} alt="" />
                 </div>
 
                 <div className="full-page-image">
-                    <img src="" alt="" />
+                    <img src={toDoTwo} alt="" />
                 </div>
 
                 <div className="full-page-image">
