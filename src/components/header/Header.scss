@@ -22,12 +22,13 @@
     overflow: hidden;
     border-radius: $border-radius-m;
     font-weight: $font-weight-bold;
+    background-color: $color-mediumGreen;
     
 }
 
 .inner__headings span{
     position: relative;
-    color: $color-mediumGreen;
+    color: $color-lighterMustard;
     animation: animation 10s ease infinite;
 
 }

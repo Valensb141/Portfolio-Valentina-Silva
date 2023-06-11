@@ -34,7 +34,7 @@ const RoundedContainer = (props) => {
                     <BtnLinkOrTag target="_blanc" type='btn btn__primary' text="Linkedin" to='https://www.linkedin.com/in/valentina-silva-75b2a1212/' icon={<IconArrow />}/>
                     <BtnLinkOrTag target="_blanc" type='btn btn__primary' text="GitHub" to='https://github.com/Valensb141' icon={<IconArrow />}/>
                     <BtnLinkOrTag target="_blanc" type='btn btn__primary' text="Instagram" to='https://www.instagram.com/designavenue.vs/' icon={<IconArrow />}/>
-                    <BtnLinkOrTag target="_blanc" type='btn btn__primary' text="Behance" to='https://www.instagram.com/designavenue.vs/' icon={<IconArrow />}/>
+                    <BtnLinkOrTag target="_blanc" type='btn btn__primary' text="Behance" to='https://www.behance.net/valentinasilva5' icon={<IconArrow />}/>
                 </div>
 
             </div> 

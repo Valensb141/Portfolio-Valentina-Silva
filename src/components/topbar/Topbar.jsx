@@ -1,7 +1,7 @@
 import './Topbar.scss';
 import BtnLinkOrTag from '../btn-links-tags/BtnLinkOrTag';
 import { useState } from 'react';
-
+import Hamburguesa from '../icons/Hamburguesa';
 function Topbar() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
@@ -26,11 +26,11 @@ function Topbar() {
         <BtnLinkOrTag type='btn btn__primary' text='Contacto' to={`/#contact`} />
       </nav>
 
-      <button className='show__menu' onClick={handleShowMenuClick}>
-        X
+      <button className='show__menu hamburger__menu' onClick={handleShowMenuClick}>
+        <Hamburguesa />
       </button>
       <div className='show__menu'>
-        <BtnLinkOrTag type='btn btn__primary' text='Contacto' to={`/about`} />
+        <BtnLinkOrTag type='btn btn__primary' text='Contacto' to={`#contacto`} />
       </div>
     </>
   );

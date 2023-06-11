@@ -31,19 +31,19 @@ export default function ProjectDesignAvenue() {
 
             <section className='trio__block'>
                 <InfoBlock 
-                title="PROBLEMA"
+                title="CHALLENGE"
                 mainText="Lorem Ipsum lorem ipsum"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat."
                 />
 
                 <InfoBlock 
-                title="PROBLEMA"
+                title="GOAL"
                 mainText="Lorem Ipsum lorem ipsum"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat."
                 />
 
                 <InfoBlock 
-                title="PROBLEMA"
+                title="RESULT"
                 mainText="Lorem Ipsum lorem ipsum"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat."
                 />

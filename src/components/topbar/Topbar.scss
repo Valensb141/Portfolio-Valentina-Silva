@@ -43,7 +43,16 @@
   
     @media (max-width: 750px) {
       display: flex;
+      margin-right: $margin-s;
+      
     }
+  }
+
+  .hamburger__menu {
+    background-color: $color-lighterMustard;
+    border: solid 1px $color-lightMustard;
+    border-radius: 100%;
+    margin-right: $margin-s;
   }
 
 .nav__btn {

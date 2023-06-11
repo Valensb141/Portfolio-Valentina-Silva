@@ -2,7 +2,7 @@
 @import '../../globalStyle/mixins';
 
 .btn {
-    padding: $padding-xxs $padding-xs $padding-xxs $padding-xs;
+    padding: $padding-xxs $padding-s $padding-xxs $padding-s;
     font-family: $font-family-primary;
     font-weight: $font-weight-regular;
     border-radius: $border-radius-s;
@@ -14,7 +14,7 @@
     text-decoration: none;
     cursor: pointer;
     height: fit-content;
-    text-align: center;
+    //text-align: center;
     
     
 
