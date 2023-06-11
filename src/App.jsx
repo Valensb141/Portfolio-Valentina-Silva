@@ -7,7 +7,7 @@ import { Link, Route, Routes, useLocation } from 'react-router-dom';
 import './globalStyle/GlobalStyle.scss';
 
 //Importación de views
-import Home from './views/Home/Home.jsx';
+import Home from './views/home/Home.jsx';
 import About from './views/about/About.jsx';
 import Portfolio from './views/Portfolio.jsx';
 import Project from './views/project/Project';
