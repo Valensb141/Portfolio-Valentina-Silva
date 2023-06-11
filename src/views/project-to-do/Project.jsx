@@ -1,9 +1,9 @@
 import '../project/Project.scss'
 //import ProjectSmallDescription from '../../components/project-small-description/ProjectSmallDescription'
 import TextImgDuo from '../../components/text-img-duo/TextImgDuo'
-import me from '../../images/me.png'
-import toDoOne from '../../images/toDoOne.png'
-import toDoTwo from '../../images/toDoTwo.png'
+import toDoApp_1 from '../../images/toDoApp_1.png'
+import toDoApp_3 from '../../images/toDoApp_3.png'
+import toDoApp_2 from '../../images/toDoApp_2.png'
 //import TitleTextTag from '../../components/title-text-tag/TitleTextTag'
 import InfoBlock from '../../components/info__block/InfoBlock'
 
@@ -15,7 +15,7 @@ export default function ProjectToDoApp() {
                 <TextImgDuo
                 imgContainer='img__halfpage'
                 imgType='img__square'
-                src={toDoTwo}
+                src={toDoApp_1}
                 alt='Imágen principal de proyecto'
                 title="To Do List"
                 text="Esat es la descripciondel proyetop que voy a mostar"
@@ -53,15 +53,15 @@ export default function ProjectToDoApp() {
                 <h1>GALLERY</h1>
                 
                 <div className="full-page-image">
-                    <img src={toDoOne} alt="" />
+                    <img className="img_projects" src={toDoApp_3} alt="" />
                 </div>
 
                 <div className="full-page-image">
-                    <img src={toDoTwo} alt="" />
+                    <img className="img_projects" src={toDoApp_2} alt="" />
                 </div>
 
                 <div className="full-page-image">
-                    <img src="" alt="" />
+                    <img className="img_projects" src={toDoApp_1} alt="" />
                 </div>
             </section>
         </div>

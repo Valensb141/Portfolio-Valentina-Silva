@@ -5,7 +5,7 @@
     display: flex;
     background-color: $color-lighterMustard;
     width: 100%;
-    height: fit-content;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
 
@@ -20,7 +20,7 @@
     display: flex;
     background-color: $color-lighterMustard;
     width: 100%;
-    height: 450px;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     flex-direction: row-reverse;
@@ -66,7 +66,7 @@
 
 .project__img {
     width: 50%;
-    height: 100%;
+    //height: 100%;
     background-color: $color-darkBeige;
     
     @include bp($bp-mobile){
@@ -78,6 +78,6 @@
 
 .project__img__subcontainer {
     width: 100%;
-    height: 380px;
+    height: 100%;
     object-fit: cover;
 }

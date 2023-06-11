@@ -50,6 +50,10 @@
 
     @include bp($bp-mobile){
         width: 100%;
-        height: 500px;
+        //height: 500px;
     }
+}
+
+.img_projects {
+    width: 100%;
 }

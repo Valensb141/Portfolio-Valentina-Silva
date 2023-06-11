@@ -13,9 +13,10 @@ import Portfolio from './views/Portfolio.jsx';
 import Project from './views/project/Project';
 import Topbar from './components/topbar/Topbar.jsx';
 import ProjectDesignAvenue from './views/project-design-avenue/Project';
-import ProjectCalculator from './views/project-calculator/Project';
+import ProjectWeatherApp from './views/project-weather-app/Project';
 import ProjectToDoApp from './views/project-to-do/Project';
 import { useEffect } from 'react';
+
 
 function App() {
   const { pathname } = useLocation();
@@ -36,7 +37,7 @@ function App() {
           <Route path='/Portfolio' element={<Portfolio />} />
           <Route path='/project' element={<Project />} />
           <Route path='/project-to-do' element={<ProjectToDoApp />} />
-          <Route path='/project-calculator' element={<ProjectCalculator />} />
+          <Route path='/project-weather-app' element={<ProjectWeatherApp />} />
           <Route path='/project-design-avenue' element={<ProjectDesignAvenue />} />
         </Routes>
       </main>

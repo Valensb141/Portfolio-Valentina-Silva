@@ -11,7 +11,7 @@
     //margin-bottom: $margin-xxxl;
 
     @include bp($bp-tablet){
-        flex-direction: column;
+        flex-direction: column-reverse;
         height: fit-content;
     }
 
