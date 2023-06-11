@@ -1,7 +1,7 @@
 import ProjectsContainer from '../../components/projects-container/ProjectsContainer';
 import RoundedContainer from '../../components/rouded-container/RoundedContainer';
 import Header from '../../components/header/Header';
-import './home.scss';
+import './Home.scss';
 import me from '../../images/me.png';
 import coffeeMe from '../../images/coffeeMe.png';
 import { useLocation } from 'react-router-dom';
