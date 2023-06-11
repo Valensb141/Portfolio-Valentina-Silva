@@ -1,6 +1,6 @@
 import ProjectsContainer from '../../components/projects-container/ProjectsContainer';
 import RoundedContainer from '../../components/rouded-container/RoundedContainer';
-import Header from '../../components/header/header';
+import Header from '../../components/header/Header';
 import './home.scss';
 import me from '../../images/me.png';
 import coffeeMe from '../../images/coffeeMe.png';
