@@ -30,7 +30,7 @@ function Topbar() {
         <Hamburguesa />
       </button>
       <div className='show__menu'>
-        <BtnLinkOrTag type='btn btn__primary' text='Contacto' to={`#contacto`} />
+        <BtnLinkOrTag type='btn btn__primary' text='Contact' to={`/#contact`} />
       </div>
     </>
   );

@@ -4,14 +4,18 @@
     width: 100%;
     margin: 0;
 }
-.footer {
+
+footer {
     display: flex;
-    //margin-top: $margin-xl;
+    flex-direction: column;
+    color: $color-darkerGreen;
     margin-left: 0;
     margin-right: 0;
     padding: $padding-s $padding-l;
-    //max-width: 1200px;
-    min-width: 840px;
     justify-content: center;
-    //background-color: $color-mediumGreen;
+    text-align: center;
+}
+
+.footer__link {
+    color: $color-darkerGreen;
 }

@@ -58,7 +58,7 @@ export default function Home() {
         principle='People matter most.'
         principle2='Flexibility and adaptability are superpowers.'
         principle3='Give it your all in everything you do.'
-        principle4='Communication is key'
+        principle4='Communication is key.'
         showPrinciples='principles__container'
         contactInfo='contact__dont-show'
         to={`/About`}

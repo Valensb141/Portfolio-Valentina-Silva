@@ -5,6 +5,7 @@ import { Link, Route, Routes, useLocation } from 'react-router-dom';
 
 //importación de estilos generales
 import './globalStyle/GlobalStyle.scss';
+import './App.scss'
 
 //Importación de views
 import Home from './views/home/Home.jsx';
@@ -41,6 +42,11 @@ function App() {
           <Route path='/project-design-avenue' element={<ProjectDesignAvenue />} />
         </Routes>
       </main>
+
+      <footer className="footer__main__container">
+        <p>By Valentina Silva</p>
+        <Link className='footer__link' to={`/#contact`}>Contactar</Link>
+      </footer>
     </>
   );
 }

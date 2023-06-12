@@ -16,7 +16,7 @@ const ProjectsContainer = () => {
         <section className='projects'>
             <TextImgBlock direction='project__container__imgToRight' src={toDoGif} title="To Do List App" description="Esta es la descripción" icon={<Js/>} icon1={<Html/>} icon2={<Css/>} showIcon='icon-circle' to={`/project-to-do`}/>
             <TextImgBlock direction='project__container__imgToLeft' src={weatherAppGif} title="Weather App" description="Esta es la descripción" icon={<Js/>} icon1={<Html/>} icon2={<Scss/>} showIcon='icon-circle' to={`/project-weather-app`}/>
-            <TextImgBlock direction='project__container__imgToRight' src={designAvenueGif} title="Design Avenue" description="Esta es la descripción" icon={<Wp/>} icon1={<Css/>} showIcon='icon-circle'
+            <TextImgBlock direction='project__container__imgToRight' src={designAvenueGif} title="Design Avenue" description="Esta es la descripción" icon={<Wp/>} icon1={<Css/>} icon2={<Html/>} showIcon='icon-circle'
             to={`/project-design-avenue`}/>
         </section>
 

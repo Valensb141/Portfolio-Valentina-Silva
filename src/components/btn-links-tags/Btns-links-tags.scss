@@ -92,14 +92,26 @@
         font-size: $font-size-small;
         //flex-direction: row-reverse;
         padding: $padding-m $padding-l $padding-m $padding-l;
-        min-width: 70%;
+        width: 250px;
         text-align: center;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
-        font-size: medium;
-        
+        font-size: $font-size-medium;
+        min-height: 50px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+        @include bp($bp-laptop){
+            width: 200px;
+        }  
+
+        @include bp($bp-tablet){
+            min-width: 0;
+        }  
+
         
         @include bp($bp-mobile){
-            
+            width: 100%;
         }  
 
     }
