@@ -1,9 +1,9 @@
 import '../project/Project.scss'
 //import ProjectSmallDescription from '../../components/project-small-description/ProjectSmallDescription'
 import TextImgDuo from '../../components/text-img-duo/TextImgDuo'
-import toDoApp_1 from '../../images/toDoApp_1.png'
-import toDoApp_3 from '../../images/toDoApp_3.png'
-import toDoApp_2 from '../../images/toDoApp_2.png'
+import toDoApp_1 from '/images/toDoApp_1.png'
+import toDoApp_3 from '/images/toDoApp_3.png'
+import toDoApp_2 from '/images/toDoApp_2.png'
 //import TitleTextTag from '../../components/title-text-tag/TitleTextTag'
 import InfoBlock from '../../components/info__block/InfoBlock'
 

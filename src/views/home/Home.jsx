@@ -2,8 +2,8 @@ import ProjectsContainer from '../../components/projects-container/ProjectsConta
 import RoundedContainer from '../../components/rouded-container/RoundedContainer';
 import Header from '../../components/header/Header';
 import './Home.scss';
-import me from '../../images/me.png';
-import coffeeMe from '../../images/coffeeMe.png';
+import me from '/images/me.png';
+import coffeeMe from '/images/coffeeMe.png';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 

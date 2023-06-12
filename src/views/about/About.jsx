@@ -1,5 +1,5 @@
 import './About.scss'
-import me from '../../images/me.png'
+import me from '/images/me.png'
 import BtnLinkOrTag from '../../components/btn-links-tags/BtnLinkOrTag'
 import TitleTextTag from '../../components/title-text-tag/TitleTextTag'
 //import IconArrow from '../../components/icons/IconArrow'

@@ -1,7 +1,7 @@
 import './Project.scss'
 //import ProjectSmallDescription from '../../components/project-small-description/ProjectSmallDescription'
 import TextImgDuo from '../../components/text-img-duo/TextImgDuo'
-import me from '../../images/me.png'
+import me from '/images/me.png'
 //import TitleTextTag from '../../components/title-text-tag/TitleTextTag'
 import InfoBlock from '../../components/info__block/InfoBlock'
 export default function Project() {

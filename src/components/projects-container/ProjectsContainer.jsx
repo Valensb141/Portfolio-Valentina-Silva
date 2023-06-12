@@ -7,9 +7,9 @@ import Html from '../icons/Html';
 import Css from '../icons/Css';
 import Scss from '../icons/Scss';
 import Wp from '../icons/Wp';
-import toDoGif from '../../images/toDoGif.gif'
-import weatherAppGif from '../../images/weatherAppGif.gif'
-import designAvenueGif from '../../images/designAvenueGif.gif'
+import toDoGif from '/images/toDoGif.gif'
+import weatherAppGif from '/images/weatherAppGif.gif'
+import designAvenueGif from '/images/designAvenueGif.gif'
 
 const ProjectsContainer = () => {
     return (
