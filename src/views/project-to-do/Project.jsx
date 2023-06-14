@@ -18,9 +18,9 @@ export default function ProjectToDoApp() {
                 src={toDoApp_1}
                 alt='Imágen principal de proyecto'
                 title="To Do List"
-                text="Esat es la descripciondel proyetop que voy a mostar"
+                text="This app helps you make a list of tasks you need to do. You can add tasks, see the ones you're working on, and the ones you've completed. If you no longer need a task, you can remove it from the list."
                 category1="Lenguajes"
-                categoryContent1="React | JavaScript"
+                categoryContent1="HTML | JavaScript | CSS"
                 category2="Year"
                 categoryContent2="2023"
                 btnText="GitHub"
@@ -31,20 +31,20 @@ export default function ProjectToDoApp() {
             <section className='trio__block'>
                 <InfoBlock 
                 title="CHALLENGE"
-                mainText="Lorem Ipsum lorem ipsum"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat."
+                mainText="Implement functionality"
+                text="The task at hand is to incorporate the functionality of adding tasks, marking tasks as complete, and removing tasks from the list using JavaScript, HTML, and CSS for the layout and presentation."
                 />
 
                 <InfoBlock 
                 title="GOAL"
-                mainText="Lorem Ipsum lorem ipsum"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat."
+                mainText="Functional and practical tool"
+                text="The goal is to empower users to efficiently create, organize, and manage their tasks, ultimately enhancing their productivity and aiding them in maintaining a sense of organization."
                 />
 
                 <InfoBlock 
                 title="RESULT"
-                mainText="Lorem Ipsum lorem ipsum"
-                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat."
+                mainText="Interactive application"
+                text="An interactive app for efficient time management and organization."
                 />
             </section>
 

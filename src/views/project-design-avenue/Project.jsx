@@ -19,9 +19,9 @@ export default function ProjectDesignAvenue() {
                 src={designAvenueGif}
                 alt='Imágen principal de proyecto'
                 title="Design Avenue"
-                text="Esat es la descripcion del proyetop que voy a mostar"
+                text="Design Avenue is an online graphic design studio that specializes in helping new businesses or startups create their visual identity. We provide guidance and support to ensure your brand has a strong and appealing visual presence."
                 category1="Lenguajes"
-                categoryContent1="React | JavaScript"
+                categoryContent1="WordPress | Css"
                 category2="Year"
                 categoryContent2="2023"
                 btnText="GitHub"
@@ -32,19 +32,19 @@ export default function ProjectDesignAvenue() {
             <section className='trio__block'>
                 <InfoBlock 
                 title="CHALLENGE"
-                mainText="Lorem Ipsum lorem ipsum"
+                mainText="Atractive website"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat."
                 />
 
                 <InfoBlock 
                 title="GOAL"
-                mainText="Lorem Ipsum lorem ipsum"
+                mainText="Easy to navigate"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat."
                 />
 
                 <InfoBlock 
                 title="RESULT"
-                mainText="Lorem Ipsum lorem ipsum"
+                mainText="Functional platform"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus nulla eleifend posuere feugiat."
                 />
             </section>

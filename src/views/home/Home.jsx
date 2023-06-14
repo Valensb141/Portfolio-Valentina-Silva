@@ -64,11 +64,11 @@ export default function Home() {
         to={`/About`}
       />
 
-      <h2 className='seccion__title' id='graphic-portfolio'>
+      {/* <h2 className='seccion__title' id='graphic-portfolio'>
         Graphic Design
-      </h2>
+      </h2> */}
 
-      <ProjectsContainer />
+      {/* <ProjectsContainer /> */}
 
       <RoundedContainer
         id='contact'

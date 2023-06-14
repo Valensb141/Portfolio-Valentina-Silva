@@ -21,7 +21,7 @@ function Topbar() {
           text='UX/UI Design - Frontend Development'
           to='/#web-portfolio'
         />
-        <BtnLinkOrTag type='btn btn__secondary btn__secondary__topbar__middle' text='Graphic Design' to='/#graphic-portfolio' />
+        {/* <BtnLinkOrTag type='btn btn__secondary btn__secondary__topbar__middle' text='Graphic Design' to='/#graphic-portfolio' /> */}
         <BtnLinkOrTag type='btn btn__secondary btn__secondary__topbar__right' text='Sobre mi' to={`/About`} />
         <BtnLinkOrTag type='btn btn__primary' text='Contacto' to={`/#contact`} />
       </nav>
